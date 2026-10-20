@@ -1,4 +1,4 @@
-# Red Hat Satellite — What / How / Why / Where
+# Red Hat Satellite
 
 ## What is it?
 **Red Hat Satellite is the premier management add-on for Red Hat Enterprise Linux, handling the provisioning, patching, configuration, and security compliance of your entire RHEL footprint from a single console.**

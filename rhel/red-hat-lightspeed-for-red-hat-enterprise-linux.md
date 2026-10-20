@@ -1,4 +1,4 @@
-# Red Hat Lightspeed for Red Hat Enterprise Linux — What / How / Why / Where
+# Red Hat Lightspeed for Red Hat Enterprise Linux
 
 ## What is it?
 **Red Hat Lightspeed for Red Hat Enterprise Linux (formerly Red Hat Insights) is a proactive, AI-powered monitoring service, included with every RHEL subscription, that analyzes your systems to flag security threats, performance bottlenecks, and misconfigurations before they cause problems.**

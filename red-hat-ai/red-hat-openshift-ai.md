@@ -1,4 +1,4 @@
-# Red Hat OpenShift AI — What / How / Why / Where
+# Red Hat OpenShift AI
 
 ## What is it?
 **Red Hat OpenShift AI is a platform, built on Red Hat OpenShift, for training, tuning, deploying, and monitoring predictive and generative AI models — and increasingly, agentic AI — at scale across hybrid cloud environments.**

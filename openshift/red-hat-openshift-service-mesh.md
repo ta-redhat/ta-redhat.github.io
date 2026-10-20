@@ -1,4 +1,4 @@
-# Red Hat OpenShift Service Mesh — What / How / Why / Where
+# Red Hat OpenShift Service Mesh
 
 ## What is it?
 **Red Hat OpenShift Service Mesh gives you a uniform way to connect, secure, monitor, and control communication between microservices — without changing a single line of application code.**

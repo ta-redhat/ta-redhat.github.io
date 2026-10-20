@@ -1,4 +1,4 @@
-# Red Hat Enterprise Linux (RHEL) — What / How / Why / Where
+# Red Hat Enterprise Linux (RHEL)
 
 ## What is it?
 **Red Hat Enterprise Linux (RHEL) is a commercially supported, enterprise-grade Linux operating system that gives organizations a consistent, secure foundation for running applications across physical servers, virtual machines, private and public clouds, and edge devices.**
@@ -22,7 +22,15 @@ It matters most if you're:
 - Managing infrastructure at scale (hundreds to hundreds of thousands of nodes)
 
 ## Where do I get it?
-RHEL is sold directly through the **Red Hat Store**: [https://www.redhat.com/en/store](https://www.redhat.com/en/store). Current list pricing (1-year term) for **RHEL Server**: [Self-Support US$383.90](https://www.redhat.com/en/store/red-hat-enterprise-linux-server), Standard US$878.90, Premium US$1,428.90; for **RHEL Workstation**: [Self-Support US$196.90](https://www.redhat.com/en/store/red-hat-enterprise-linux-workstation), Standard US$328.90. For larger deployments, custom agreements, or if you want guidance on which subscription fits your environment, you can **contact Red Hat sales**: [https://www.redhat.com/en/contact](https://www.redhat.com/en/contact).
+RHEL is sold directly through the **Red Hat Store**: [https://www.redhat.com/en/store](https://www.redhat.com/en/store). Current list pricing (1-year term):
+
+- **RHEL Server, Self-Support**: [US$383.90](https://www.redhat.com/en/store/red-hat-enterprise-linux-server)
+- **RHEL Server, Standard**: US$878.90
+- **RHEL Server, Premium**: US$1,428.90
+- **RHEL Workstation, Self-Support**: [US$196.90](https://www.redhat.com/en/store/red-hat-enterprise-linux-workstation)
+- **RHEL Workstation, Standard**: US$328.90
+
+For larger deployments, custom agreements, or if you want guidance on which subscription fits your environment, you can **contact Red Hat sales**: [https://www.redhat.com/en/contact](https://www.redhat.com/en/contact).
 
 RHEL is also available as a pay-as-you-go image directly from the major cloud marketplaces, which bills usage through your existing cloud account instead of a separate Red Hat purchase:
 

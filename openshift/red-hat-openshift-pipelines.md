@@ -1,4 +1,4 @@
-# Red Hat OpenShift Pipelines — What / How / Why / Where
+# Red Hat OpenShift Pipelines
 
 ## What is it?
 **Red Hat OpenShift Pipelines is a cloud-native CI/CD solution, built on the open source Tekton project, that automates building, testing, and deploying applications directly on OpenShift.**

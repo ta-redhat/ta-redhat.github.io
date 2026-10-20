@@ -1,4 +1,4 @@
-# Red Hat Lightwell — What / How / Why / Where
+# Red Hat Lightwell
 
 ## What is it?
 **Red Hat Lightwell is a joint Red Hat and IBM subscription service that gives enterprises an alternative path to remediate vulnerable open source dependencies when a normal version upgrade would be too risky or disruptive.**

@@ -1,4 +1,4 @@
-# Red Hat AI — What / How / Why / Where
+# Red Hat AI
 
 ## What is it?
 **Red Hat AI is a portfolio of products that helps organizations build, deploy, and manage AI models and AI agents — predictive, generative, and agentic — consistently across any hardware, cloud, or datacenter.**

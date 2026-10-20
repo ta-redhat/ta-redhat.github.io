@@ -1,4 +1,4 @@
-# Red Hat OpenShift Dev Spaces — What / How / Why / Where
+# Red Hat OpenShift Dev Spaces
 
 ## What is it?
 **Red Hat OpenShift Dev Spaces provides instant, browser-based, container-based development environments on OpenShift — so developers get a fully configured, consistent coding environment without setting up anything locally.**

@@ -1,4 +1,4 @@
-# Red Hat Trusted Profile Analyzer — What / How / Why / Where
+# Red Hat Trusted Profile Analyzer
 
 ## What is it?
 **Red Hat Trusted Profile Analyzer manages your organization's Software Bills of Materials (SBOMs), vendor VEX, and CVE data so developers and security teams can analyze software risk across custom, third-party, and open source components from one shared system of record.**

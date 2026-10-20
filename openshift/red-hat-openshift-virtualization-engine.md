@@ -1,4 +1,4 @@
-# Red Hat OpenShift Virtualization Engine — What / How / Why / Where
+# Red Hat OpenShift Virtualization Engine
 
 ## What is it?
 **Red Hat OpenShift Virtualization Engine is a self-managed OpenShift edition focused exclusively on deploying, managing, and scaling virtual machines — without the container-orchestration features of broader OpenShift editions.**

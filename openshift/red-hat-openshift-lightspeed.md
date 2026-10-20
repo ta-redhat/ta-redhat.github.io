@@ -1,4 +1,4 @@
-# Red Hat OpenShift Lightspeed — What / How / Why / Where
+# Red Hat OpenShift Lightspeed
 
 ## What is it?
 **Red Hat OpenShift Lightspeed is a generative AI virtual assistant built directly into the OpenShift web console, letting users ask natural-language questions about OpenShift and get step-by-step guidance in return.**

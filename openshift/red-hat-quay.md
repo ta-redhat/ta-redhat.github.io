@@ -1,4 +1,4 @@
-# Red Hat Quay — What / How / Why / Where
+# Red Hat Quay
 
 ## What is it?
 **Red Hat Quay is an enterprise-grade, security-focused container registry for storing, distributing, scanning, and governing container images and cloud-native artifacts across datacenter, cloud, OpenShift, and Kubernetes environments.**

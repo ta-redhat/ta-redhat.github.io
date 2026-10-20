@@ -1,4 +1,4 @@
-# Red Hat Automation Coding Assistant — What / How / Why / Where
+# Red Hat Automation Coding Assistant
 
 ## What is it?
 **The Red Hat Automation coding assistant (formerly branded Red Hat Ansible Lightspeed) is a generative AI service, included with Ansible Automation Platform, that turns natural-language prompts into trusted Ansible YAML code — single tasks, full playbooks, or roles.**

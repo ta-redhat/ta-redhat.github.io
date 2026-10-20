@@ -1,4 +1,4 @@
-# Red Hat Advanced Developer Suite — What / How / Why / Where
+# Red Hat Advanced Developer Suite
 
 ## What is it?
 **Red Hat Advanced Developer Suite is a curated bundle of developer-productivity and software-supply-chain-security tools that extends OpenShift, letting platform engineers enforce governance while developers and AI agents build and ship faster.**

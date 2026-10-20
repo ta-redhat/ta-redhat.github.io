@@ -1,4 +1,4 @@
-# Red Hat AI Enterprise — What / How / Why / Where
+# Red Hat AI Enterprise
 
 ## What is it?
 **Red Hat AI Enterprise is an integrated, ready-to-use AI platform for building, developing, and deploying AI-powered applications, agentic workflows, and efficient AI models across the hybrid cloud, all under one subscription.**

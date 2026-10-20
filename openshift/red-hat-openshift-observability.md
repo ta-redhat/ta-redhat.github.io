@@ -1,4 +1,4 @@
-# Red Hat OpenShift Observability — What / How / Why / Where
+# Red Hat OpenShift Observability
 
 ## What is it?
 **Red Hat OpenShift Observability is a unified set of capabilities — monitoring, logging, distributed tracing, OpenTelemetry, network observability, and power monitoring — for diagnosing the health and performance of applications and infrastructure running on OpenShift.**

@@ -1,4 +1,4 @@
-# Red Hat Enterprise Linux Long-Life Add-On — What / How / Why / Where
+# Red Hat Enterprise Linux Long-Life Add-On
 
 ## What is it?
 **The Red Hat Enterprise Linux Long-Life Add-On is an optional, yearly subscription extension that keeps a specific RHEL release under active security and bug-fix support indefinitely — with no pre-determined end date.**

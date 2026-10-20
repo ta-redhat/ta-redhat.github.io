@@ -1,4 +1,4 @@
-# Red Hat OpenShift — What / How / Why / Where
+# Red Hat OpenShift
 
 ## What is it?
 **Red Hat OpenShift is an enterprise application platform, built on Kubernetes, for building, deploying, running, and modernizing containerized applications and AI workloads across hybrid cloud environments.**

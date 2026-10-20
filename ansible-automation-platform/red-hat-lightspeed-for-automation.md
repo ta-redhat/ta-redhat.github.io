@@ -1,4 +1,4 @@
-# Red Hat Lightspeed for Automation — What / How / Why / Where
+# Red Hat Lightspeed for Automation
 
 ## What is it?
 **Red Hat Lightspeed for automation (formerly Red Hat Insights for Ansible) gives administrators full visibility into the health, configuration, security, and performance of their Ansible Automation Platform infrastructure, so problems can be caught before they affect automation performance.**

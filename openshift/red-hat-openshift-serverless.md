@@ -1,4 +1,4 @@
-# Red Hat OpenShift Serverless — What / How / Why / Where
+# Red Hat OpenShift Serverless
 
 ## What is it?
 **Red Hat OpenShift Serverless lets developers build and run event-driven applications that automatically scale up and down — including all the way down to zero — without managing the underlying Kubernetes infrastructure.**

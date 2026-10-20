@@ -1,4 +1,4 @@
-# Red Hat Developer Hub — What / How / Why / Where
+# Red Hat Developer Hub
 
 ## What is it?
 **Red Hat Developer Hub is an enterprise-grade internal developer portal, built on the open source Backstage project, that gives development teams one centralized, self-service place to find approved software templates, documentation, tools, and best practices.**

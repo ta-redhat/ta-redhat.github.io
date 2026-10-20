@@ -1,4 +1,4 @@
-# Red Hat OpenShift Dedicated — What / How / Why / Where
+# Red Hat OpenShift Dedicated
 
 ## What is it?
 **Red Hat OpenShift Dedicated is a fully managed OpenShift offering, hosted on AWS or Google Cloud, where Red Hat's own site reliability engineering (SRE) team runs the cluster for you.**

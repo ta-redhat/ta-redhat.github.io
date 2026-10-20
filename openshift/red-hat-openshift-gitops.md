@@ -1,4 +1,4 @@
-# Red Hat OpenShift GitOps — What / How / Why / Where
+# Red Hat OpenShift GitOps
 
 ## What is it?
 **Red Hat OpenShift GitOps is an OpenShift operator, built on the open source Argo CD project, that uses your Git repository as the single source of truth for how applications and clusters should be configured — and automatically keeps reality in sync with it.**

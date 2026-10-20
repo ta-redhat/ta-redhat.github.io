@@ -1,4 +1,4 @@
-# Ansible Automation Platform — What / How / Why / Where
+# Ansible Automation Platform
 
 ## What is it?
 **Red Hat Ansible Automation Platform is an enterprise automation platform that lets IT teams create, manage, and scale automation — from routine configuration tasks to AI-assisted operations and incident response — under one consistent governance model.**
@@ -22,7 +22,21 @@ It's most valuable once automation needs span more than one team or use case.
 ## Where do I get it?
 Ansible Automation Platform is not sold through the self-serve Red Hat Store — it's an enterprise subscription product. To purchase or get pricing details for your environment, **contact Red Hat sales**: [https://www.redhat.com/en/contact](https://www.redhat.com/en/contact). It's also available through Red Hat's partner ecosystem and select cloud marketplaces.
 
-**AWS Marketplace pricing** has two published paths: a fully managed **[Ansible Automation Platform Service on AWS](https://aws.amazon.com/marketplace/pp/prodview-mpuxxhsen5qre)**, billed monthly by managed-node tier from **$412.50/mo** (50 nodes) up to **$70,125/mo** (10,000 nodes), plus **$8.25/managed node/mo** and **$0.10/cluster-CPU/hour** for overages; and a **[self-managed subscription](https://aws.amazon.com/marketplace/pp/prodview-xy6tb27e6rkjm)** at **$19,250 per 12 months** per 100-node pack.
+**AWS Marketplace pricing** has two published paths:
+
+**[Ansible Automation Platform Service on AWS](https://aws.amazon.com/marketplace/pp/prodview-mpuxxhsen5qre)** (fully managed, billed monthly by node tier):
+
+- 50 nodes: **$412.50/mo**
+- 400 nodes: **$3,168.00/mo**
+- 1,000 nodes: **$7,672.50/mo**
+- 2,500 nodes: **$18,768.75/mo**
+- 5,000 nodes: **$36,300.00/mo**
+- 10,000 nodes: **$70,125.00/mo**
+- Overages: **$8.25/managed node/mo**, plus **$0.10/cluster-CPU/hour** for control plane infrastructure
+
+**[Self-managed subscription](https://aws.amazon.com/marketplace/pp/prodview-xy6tb27e6rkjm)**:
+
+- **$19,250 per 12 months** per 100-node pack
 
 ## Related Products
 

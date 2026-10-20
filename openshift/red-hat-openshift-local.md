@@ -1,4 +1,4 @@
-# Red Hat OpenShift Local — What / How / Why / Where
+# Red Hat OpenShift Local
 
 ## What is it?
 **Red Hat OpenShift Local (formerly Red Hat CodeReady Containers) runs a minimal, preconfigured OpenShift cluster directly on your laptop or desktop, so you can develop and test against a real OpenShift environment without any server infrastructure.**

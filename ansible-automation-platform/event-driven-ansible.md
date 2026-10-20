@@ -1,4 +1,4 @@
-# Event-Driven Ansible — What / How / Why / Where
+# Event-Driven Ansible
 
 ## What is it?
 **Event-Driven Ansible is a capability included with Ansible Automation Platform that automatically turns events from monitoring and observability tools into automated remediation actions, without waiting for a human to notice and respond.**

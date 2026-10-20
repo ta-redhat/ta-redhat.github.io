@@ -1,4 +1,4 @@
-# Red Hat AI Inference — What / How / Why / Where
+# Red Hat AI Inference
 
 ## What is it?
 **Red Hat AI Inference is an integrated inference stack that runs any AI model on any hardware accelerator across the hybrid cloud, optimized specifically for fast, consistent, cost-effective model serving.**

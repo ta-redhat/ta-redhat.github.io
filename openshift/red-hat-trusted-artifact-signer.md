@@ -1,4 +1,4 @@
-# Red Hat Trusted Artifact Signer — What / How / Why / Where
+# Red Hat Trusted Artifact Signer
 
 ## What is it?
 **Red Hat Trusted Artifact Signer enhances software supply chain security by making it simple to cryptographically sign and verify software artifacts — container images, binaries, documents, Git commits, and even AI models.**

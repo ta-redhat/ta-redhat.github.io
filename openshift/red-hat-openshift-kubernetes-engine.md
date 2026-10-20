@@ -1,4 +1,4 @@
-# Red Hat OpenShift Kubernetes Engine — What / How / Why / Where
+# Red Hat OpenShift Kubernetes Engine
 
 ## What is it?
 **Red Hat OpenShift Kubernetes Engine is the entry-level, security-focused edition of OpenShift — the same software as OpenShift Container Platform, but licensed with a smaller feature set at a lower price.**

@@ -1,4 +1,4 @@
-# Red Hat Sovereign Cloud — What / How / Why / Where
+# Red Hat Sovereign Cloud
 
 ## What is it?
 **Red Hat Sovereign Cloud is Red Hat's set of digital-sovereignty solutions, built on its open hybrid cloud portfolio, that help organizations control where their data lives, which laws apply to it, and who is allowed to operate the infrastructure it runs on.**

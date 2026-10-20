@@ -1,4 +1,4 @@
-# Red Hat (Company) — What / How / Why / Where
+# Red Hat (Company)
 
 ## What is it?
 **Red Hat is an enterprise open source software company that turns community-developed open source projects — Linux, Kubernetes, Ansible, and more — into secure, supported, enterprise-ready products, and has operated as an independent subsidiary of IBM since 2019.**

@@ -1,4 +1,4 @@
-# Azure Red Hat OpenShift (ARO) — What / How / Why / Where
+# Azure Red Hat OpenShift (ARO)
 
 ## What is it?
 **Azure Red Hat OpenShift (ARO) is a fully managed OpenShift service, jointly engineered, operated, and supported by Microsoft and Red Hat, available as a native service inside Microsoft Azure.**

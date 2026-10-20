@@ -1,4 +1,4 @@
-# Red Hat Advanced Cluster Management for Kubernetes — What / How / Why / Where
+# Red Hat Advanced Cluster Management for Kubernetes
 
 ## What is it?
 **Red Hat Advanced Cluster Management for Kubernetes gives you end-to-end management, visibility, and control over your entire fleet of Kubernetes/OpenShift clusters — across datacenter, cloud, and edge — from a single console.**

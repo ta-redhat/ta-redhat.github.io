@@ -1,4 +1,4 @@
-# Red Hat OpenShift Platform Plus — What / How / Why / Where
+# Red Hat OpenShift Platform Plus
 
 ## What is it?
 **Red Hat OpenShift Platform Plus is the most complete self-managed OpenShift edition — OpenShift Container Platform plus multicluster management, security, registry, and storage, bundled into one subscription.**

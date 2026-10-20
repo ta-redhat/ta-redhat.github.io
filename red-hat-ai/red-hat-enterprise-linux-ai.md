@@ -1,4 +1,4 @@
-# Red Hat Enterprise Linux AI — What / How / Why / Where
+# Red Hat Enterprise Linux AI
 
 ## What is it?
 **Red Hat Enterprise Linux AI is a foundation model platform for running, testing, and optimizing large language models — including IBM's open source Granite family — on individual server environments.**

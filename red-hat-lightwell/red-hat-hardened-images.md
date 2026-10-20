@@ -1,4 +1,4 @@
-# Red Hat Hardened Images — What / How / Why / Where
+# Red Hat Hardened Images
 
 ## What is it?
 **Red Hat Hardened Images is a free, vendor-neutral catalog of trusted, micro-sized container images, built from Red Hat's open source expertise, designed to minimize attack surface and reduce the CVE triage work development and security teams normally have to do.**

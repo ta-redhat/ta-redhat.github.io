@@ -1,4 +1,4 @@
-# Red Hat OpenShift Virtualization — What / How / Why / Where
+# Red Hat OpenShift Virtualization
 
 ## What is it?
 **Red Hat OpenShift Virtualization is a built-in OpenShift capability that lets you migrate, run, and manage traditional virtual machines alongside containers and serverless workloads on the same unified platform.**

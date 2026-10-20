@@ -1,4 +1,4 @@
-# Red Hat Advanced Cluster Security for Kubernetes — What / How / Why / Where
+# Red Hat Advanced Cluster Security for Kubernetes
 
 ## What is it?
 **Red Hat Advanced Cluster Security for Kubernetes, powered by StackRox technology, is a Kubernetes-native security platform that protects applications across the build, deploy, and runtime stages of the software lifecycle.**
