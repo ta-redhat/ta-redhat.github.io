@@ -9,7 +9,15 @@ Rather than automating one tool or team at a time, Ansible Automation Platform i
 Automation in the Ansible ecosystem is written as human-readable instructions (playbooks) describing the desired end state of a system — for example, "this server should have this package installed and this service running" — and then executed against your infrastructure to make reality match that description. Ansible Automation Platform adds an enterprise layer on top of this: a central controller for running and auditing automation at scale, an automation orchestrator for designing and managing larger multi-step IT operations workflows, and integration with AIOps so that AI-detected issues (like a false-positive alert or a service that needs restarting) can trigger governed, automated remediation instead of a manual ticket. All of this sits under one management plane and governance model, so automation written for one use case (say, network configuration) follows the same access, auditing, and approval rules as automation for another (say, security response).
 
 ## Why do I need it?
-Manually configuring servers, networks, and security responses one at a time doesn't scale — it's slow, inconsistent between environments, and prone to human error, and as AI-driven threats and infrastructure complexity grow, manual response times increasingly can't keep up. Ansible Automation Platform solves this by letting you write automation once (as a reusable playbook) and run it consistently and safely across your entire estate, with centralized governance so you can trust what's being automated and audit what happened. In practice, customers have used it to cut incident response time by automatically verifying and resolving false positives instead of pulling in an engineer, to reduce service tickets by pairing observability with self-healing automation, and to apply the same automation approach consistently across branch, campus, and data center networks instead of maintaining separate processes for each. It's most valuable once you have automation needs spanning more than one team or use case and need a consistent, auditable way to manage all of it.
+Manually configuring servers, networks, and security responses doesn't scale — it's slow, inconsistent, and error-prone, especially as AI-driven threats and infrastructure complexity grow. Ansible Automation Platform lets you write automation once and run it consistently, safely, and auditably across your entire estate.
+
+In practice, customers have used it to:
+
+- Cut incident response time by automatically verifying and resolving false positives
+- Reduce service tickets by pairing observability with self-healing automation
+- Apply one consistent automation approach across branch, campus, and data center networks
+
+It's most valuable once automation needs span more than one team or use case.
 
 ## Where do I get it?
 Ansible Automation Platform is not sold through the self-serve Red Hat Store — it's an enterprise subscription product. To purchase or get pricing details for your environment, **contact Red Hat sales**: [https://www.redhat.com/en/contact](https://www.redhat.com/en/contact). It's also available through Red Hat's partner ecosystem and select cloud marketplaces.

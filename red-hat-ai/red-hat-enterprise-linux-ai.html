@@ -34,10 +34,13 @@
 <h2 id="what-is-it">What is it?</h2>
 <p><strong>Red Hat Enterprise Linux AI is a foundation model platform for running, testing, and optimizing large language models — including IBM's open source Granite family — on individual server environments.</strong></p>
 <p>It's the simplest entry point into the Red Hat AI portfolio: rather than standing up a full Kubernetes-based AI platform, RHEL AI lets you run an LLM directly on a single server, combining the efficiency of Red Hat AI Inference with an image-mode instance of Red Hat Enterprise Linux.</p>
+<div class="section-highlight">
 <h2 id="how-does-it-work">How does it work?</h2>
 <p>RHEL AI packages a LLM runtime together with an immutable, image-mode build of RHEL, so a server is provisioned with everything needed to serve a model already in place and consistently reproducible. It ships with IBM's <strong>Granite</strong> family of LLMs — open source, enterprise-ready, multimodal models benchmarked on safety and tasks like cybersecurity and retrieval-augmented generation (RAG) — and inherits the efficiency components of Red Hat AI Inference (vLLM-based serving) to make good use of available GPU capacity. It's licensed per accelerator, same as AI Inference.</p>
+
+</div>
 <h2 id="why-do-i-need-it">Why do I need it?</h2>
-<p>Not every AI use case justifies standing up a full Kubernetes/OpenShift AI platform — sometimes you just need to run a capable LLM reliably on a server or a small number of servers, without taking on the operational overhead of a larger platform. RHEL AI is built for exactly that: a straightforward, cost-efficient way to get a trusted, open source LLM running in your own environment, especially useful for smaller-footprint deployments, edge use cases, or teams getting started with on-prem generative AI before deciding whether they need to scale further with OpenShift AI.</p>
+<p>Not every AI use case justifies a full Kubernetes/OpenShift AI platform — sometimes you just need a capable LLM running reliably on a server or two. RHEL AI gives you a straightforward, cost-efficient way to run a trusted, open source LLM in your own environment — ideal for smaller deployments, edge use cases, or getting started with on-prem generative AI.</p>
 <h2 id="where-do-i-get-it">Where do I get it?</h2>
 <p>Red Hat Enterprise Linux AI is not sold through the self-serve Red Hat Store; it's licensed per accelerator as an enterprise subscription. <strong>Contact Red Hat sales</strong>: <a href="https://www.redhat.com/en/contact">https://www.redhat.com/en/contact</a>.</p>
 <p><strong>AWS Marketplace pricing</strong> (<a href="https://aws.amazon.com/marketplace/pp/prodview-ymlols4ldtldu">listing</a>): usage-based at <strong>$0.40/hour</strong>, consistent across the supported GPU instance types (p5.48xlarge, p4d.24xlarge, g6e.48xlarge). AWS infrastructure costs are billed separately.</p>

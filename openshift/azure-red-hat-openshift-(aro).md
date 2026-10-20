@@ -9,7 +9,11 @@ It's the Azure equivalent of ROSA on AWS — the same OpenShift experience, run 
 Each ARO cluster has a fully managed control plane and application nodes, with installation, maintenance, and critical patch upgrades performed by joint Red Hat/Microsoft site reliability teams under a 99.95% uptime SLA. ARO is billed directly through Microsoft, and customers can apply existing Azure Monetary Commitments toward it. Because ARO is based on OpenShift's upstream code, the experience is identical to on-prem OpenShift — the same logging, service mesh, serverless, DevOps pipelines, and GitOps capabilities — effectively bringing the OpenShift on-prem experience into the Azure cloud. A newer deployment option, ARO with hosted control planes, runs the control plane as a separate managed service from your worker nodes for cleaner maintenance boundaries.
 
 ## Why do I need it?
-For organizations already standardized on Microsoft Azure, running OpenShift any other way means either self-managing the platform or dealing with a separate cloud and vendor relationship outside your existing Azure agreements. ARO removes both frictions: it's billed through Microsoft, counts toward Azure spending commitments, and is operated jointly by people who know both OpenShift and Azure — giving you OpenShift's full feature set with Azure-native procurement and support.
+For organizations standardized on Azure, running OpenShift any other way means self-managing it or dealing with a separate vendor relationship. ARO removes both frictions:
+
+- Billed through Microsoft, counting toward existing Azure spending commitments
+- Jointly operated by people who know both OpenShift and Azure
+- Full OpenShift feature set with Azure-native procurement and support
 
 ## Where do I get it?
 Start from the Azure Portal and select ARO, or get expert help choosing the right OpenShift offering for Azure. Total cost = ARO service fees + Azure infrastructure fees. **Contact Red Hat sales**: [https://www.redhat.com/en/contact](https://www.redhat.com/en/contact), or go through Azure directly: [https://azure.microsoft.com/en-us/products/openshift](https://azure.microsoft.com/en-us/products/openshift).

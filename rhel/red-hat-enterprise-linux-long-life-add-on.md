@@ -9,7 +9,14 @@ It's the final tier of RHEL's lifecycle model, sitting beyond standard support, 
 You must already hold an active **RHEL Extended Life Cycle, Premium** subscription — the Long-Life Add-On picks up where that subscription's benefits end. It's purchased as a yearly renewal (one year at a time, or multiple years at once) for a specific RHEL release, typically an even-numbered minor version or the final minor release of a major version. For as long as you renew it, Red Hat continues providing critical security patches, selected urgent bug fixes, and technical support for that exact release.
 
 ## Why do I need it?
-Some systems simply can't be upgraded on a vendor's normal release cadence — due to compatibility with specialized hardware, costly re-certification requirements, strict change-control policies, or workloads so sensitive that any change carries real business risk. Without this add-on, once standard and extended support run out, those systems are stuck unsupported and increasingly exposed to unpatched vulnerabilities. The Long-Life Add-On removes that cliff: you keep getting critical security fixes and support on your own timeline, for as many years as you need, instead of being forced into a disruptive upgrade.
+Some systems can't be upgraded on a vendor's normal release cadence because of:
+
+- Compatibility with specialized hardware
+- Costly re-certification requirements
+- Strict change-control policies
+- Workloads too sensitive for any change to carry risk
+
+Without this add-on, those systems go unsupported and exposed once standard support runs out. The Long-Life Add-On keeps critical security fixes flowing on your own timeline, instead of forcing a disruptive upgrade.
 
 ## Where do I get it?
 This is a layered add-on, not a self-serve purchase — pricing and eligibility depend on your existing subscription tier. **Contact Red Hat sales**: [https://www.redhat.com/en/contact](https://www.redhat.com/en/contact).

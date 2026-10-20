@@ -9,7 +9,10 @@ It's the MLOps/GenAIOps/AgentOps layer of the Red Hat AI portfolio: the place da
 OpenShift AI is built on the upstream **Open Data Hub** project (a meta-project integrating 20+ open source AI/ML tools) and runs on Kubernetes via OpenShift, so AI workloads benefit from the same scaling, scheduling, and operational consistency as any other OpenShift workload. It integrates open source tools like PyTorch, Kubeflow, MLflow, and vLLM directly into the product — including Kubeflow's notebook controller, model serving, and data science pipeline components. Notable capabilities include MLflow-based agentic AI tracing, Model Context Protocol (MCP) server governance for controlling what tools an AI agent can access, Models-as-a-Service for self-governed internal model hosting, an **AI hub** for centrally managing trusted model assets, and **Gen AI studio**, a playground for rapidly prototyping generative AI applications.
 
 ## Why do I need it?
-Without a dedicated MLOps platform, data science teams end up stitching together notebooks, training infrastructure, model serving, and monitoring tools themselves — which slows down getting models into production and makes it hard to govern what AI agents are allowed to do once they're live. OpenShift AI solves both problems: it gives data scientists a consistent, scalable environment to go from experiment to production, and gives platform/security teams the governance tooling (tool-access control, tracing, centralized model management) needed to run agentic AI safely at scale.
+Without a dedicated MLOps platform, data science teams stitch together notebooks, training infrastructure, model serving, and monitoring themselves — slowing production and making agentic AI hard to govern. OpenShift AI solves both:
+
+- A consistent, scalable environment to go from experiment to production
+- Governance tooling for agentic AI: tool-access control, tracing, centralized model management
 
 ## Where do I get it?
 Red Hat OpenShift AI is not sold through the self-serve Red Hat Store. Its subscription mirrors standard Red Hat OpenShift units (per vCPU or per bare-metal node) and requires an underlying Red Hat OpenShift entitlement. **Contact Red Hat sales**: [https://www.redhat.com/en/contact](https://www.redhat.com/en/contact).

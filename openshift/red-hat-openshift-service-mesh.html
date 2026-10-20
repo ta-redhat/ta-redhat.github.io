@@ -34,10 +34,13 @@
 <h2 id="what-is-it">What is it?</h2>
 <p><strong>Red Hat OpenShift Service Mesh gives you a uniform way to connect, secure, monitor, and control communication between microservices — without changing a single line of application code.</strong></p>
 <p>As applications break apart into many small, independently deployed microservices, keeping track of how they talk to each other, securing those connections, and diagnosing failures gets hard fast. Service Mesh exists to manage exactly that layer of communication.</p>
+<div class="section-highlight">
 <h2 id="how-does-it-work">How does it work?</h2>
 <p>Built on the open source <strong>Istio</strong>, <strong>Envoy</strong>, and <strong>Kiali</strong> projects, OpenShift Service Mesh inserts itself into service-to-service traffic to provide discovery, load balancing, service-to-service authentication, failure recovery, metrics, and more advanced capabilities like A/B testing, canary rollouts, and end-to-end tracing — all configured centrally rather than coded into each service. The Istioctl CLI and Kiali/OpenShift Service Mesh Console dashboards give visibility into and control over the mesh. It's production-ready, pre-validated, and fully supported on OpenShift, and integrates with other OpenShift capabilities like GitOps, Observability, and OpenShift Virtualization — the latest release (3.4) even brings AI-powered diagnostics via Red Hat OpenShift Lightspeed into Kiali as a technology preview.</p>
+
+</div>
 <h2 id="why-do-i-need-it">Why do I need it?</h2>
-<p>As soon as an application is broken into more than a few microservices, implementing consistent security, retries, and observability in every single service's code becomes impractical — and inconsistent implementations become a real operational risk. Service Mesh solves that by applying those policies uniformly at the infrastructure layer instead, supporting zero-trust networking at scale and removing the need to duplicate connectivity/security logic across every service your teams write, regardless of what language each one is built in.</p>
+<p>Once an app has more than a few microservices, implementing consistent security, retries, and observability in every service's code becomes impractical — and inconsistent implementations become a real risk. Service Mesh applies those policies uniformly at the infrastructure layer instead, supporting zero-trust networking at scale regardless of language.</p>
 <h2 id="where-do-i-get-it">Where do I get it?</h2>
 <p>Included with Red Hat OpenShift — install the operator from OperatorHub. If you don't yet have OpenShift, <strong>contact Red Hat sales</strong>: <a href="https://www.redhat.com/en/contact">https://www.redhat.com/en/contact</a>.</p>
 <h2 id="sources">Sources</h2>

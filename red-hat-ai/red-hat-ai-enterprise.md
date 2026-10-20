@@ -9,7 +9,15 @@ It's the "everything bundled" tier of the Red Hat AI portfolio — combining Red
 Because it bundles OpenShift AI with OpenShift Container Platform, AI Enterprise gives your team one unified environment to fine-tune models, build and manage agentic AI workflows, and serve AI-powered applications with high throughput and low latency — with intelligent scaling handled by the platform. Layered security and safety controls are built in, so you can run workloads across hybrid cloud environments without each team re-solving governance from scratch. Because the AI accelerator (GPU) entitlements are unlimited under this SKU, teams don't need to track and license accelerator usage separately as they scale.
 
 ## Why do I need it?
-Assembling your own AI platform — a Kubernetes layer, an MLOps/GenAIOps layer, inference optimization, governance, and accelerator licensing — is a significant integration project before you've even started building a model or application. AI Enterprise exists for organizations that want to skip that assembly work and get one supported, pre-integrated platform instead, which matters most if you're scaling AI from a handful of experiments to many production workloads and don't want per-component licensing complexity (especially around GPU/accelerator costs) slowing that down.
+Assembling your own AI platform means stitching together several layers before you've even started building anything:
+
+- A Kubernetes layer
+- An MLOps/GenAIOps layer
+- Inference optimization
+- Governance
+- Accelerator licensing
+
+AI Enterprise replaces that assembly work with one supported, pre-integrated platform — most valuable when scaling from a handful of AI experiments to many production workloads.
 
 ## Where do I get it?
 Red Hat AI Enterprise is not sold through the self-serve Red Hat Store — it's billed per node as an enterprise subscription. **Contact Red Hat sales**: [https://www.redhat.com/en/contact](https://www.redhat.com/en/contact).

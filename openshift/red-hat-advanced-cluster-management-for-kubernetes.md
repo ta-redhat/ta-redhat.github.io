@@ -9,7 +9,12 @@ Running one cluster is relatively simple; running dozens or hundreds across diff
 Using a hub-and-spoke architecture, Advanced Cluster Management provides a unified control plane for provisioning clusters and applications, self-service cluster setup, and full cluster lifecycle management (create, upgrade, destroy) across any CNCF-conformant Kubernetes distribution, not just OpenShift. It layers in fleet observability, built-in governance/security policies enforced consistently across clusters, GitOps-based application lifecycle deployment with placement rules for availability, and multisite/multicluster disaster recovery with persistent-volume replication. It also pairs with Ansible Automation Platform (including Event-Driven Ansible) to operationalize OpenShift environments through automation, and has a dedicated "for Virtualization" variant that manages VM fleets (view, snapshot/restore, live-migrate) exclusively.
 
 ## Why do I need it?
-Once you're operating more than a handful of clusters, managing each one individually — separately provisioning, patching, securing, and deploying applications to each — becomes both slow and inconsistent, with policy drift between clusters a near certainty. Advanced Cluster Management solves that by giving you one place to enforce policy, deploy applications, and recover from disaster across your whole fleet, reducing both operational overhead and the cognitive load of tracking what's running where.
+Managing clusters individually — provisioning, patching, securing, and deploying to each separately — gets slow and inconsistent as your fleet grows, with policy drift a near certainty. Advanced Cluster Management gives you one place to:
+
+- Enforce policy across your whole fleet
+- Deploy applications consistently
+- Recover from disaster
+- Reduce operational overhead and the cognitive load of tracking what's running where
 
 ## Where do I get it?
 Included with Red Hat OpenShift Platform Plus; also available standalone or on-demand via AWS Marketplace. **Contact Red Hat sales**: [https://www.redhat.com/en/contact](https://www.redhat.com/en/contact).
