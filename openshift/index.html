@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Red Hat OpenShift — What / How / Why / Where · Red Hat Product Research</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;600;700&family=Red+Hat+Text:ital,wght@0,400..700;1,400..700&family=Red+Hat+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="site-header-top">
+    <a class="site-brand" href="../index.html">
+      <span class="site-title">Red Hat Product Research</span>
+    </a>
+    <div class="site-header-actions">
+      <button class="header-btn" id="theme-toggle" type="button">Toggle theme</button>
+    </div>
+  </div>
+  <nav class="section-nav" aria-label="Products">
+    <a class="section-tab" href="../index.html">Home</a>
+    <a class="section-tab" href="../rhel/index.html">RHEL</a>
+    <a class="section-tab" href="../ansible-automation-platform/index.html">Ansible Automation Platform</a>
+    <a class="section-tab active" href="../openshift/index.html">OpenShift</a>
+    <a class="section-tab" href="../red-hat-ai/index.html">Red Hat AI</a>
+    <a class="section-tab" href="../red-hat-lightwell/index.html">Red Hat Lightwell</a>
+  </nav>
+</header>
+<main class="content" id="main">
+<h1 id="red-hat-openshift-what-how-why-where">Red Hat OpenShift — What / How / Why / Where</h1>
+<h2 id="what-is-it">What is it?</h2>
+<p><strong>Red Hat OpenShift is an enterprise application platform, built on Kubernetes, for building, deploying, running, and modernizing containerized applications and AI workloads across hybrid cloud environments.</strong></p>
+<p>OpenShift takes open source Kubernetes and wraps it with the security, management tooling, developer experience, and vendor support an enterprise needs to run it in production at scale. It covers the whole application lifecycle — from building new cloud-native apps, to modernizing (rehosting, re-platforming, or refactoring) existing ones, to migrating traditional virtual machines onto the same platform, to deploying and managing predictive and generative AI models via Red Hat OpenShift AI. It's offered in several forms: fully managed cloud services on partner platforms (e.g., Google Cloud), and self-managed editions ranging from an entry-level Kubernetes container runtime up to an "Advanced" tier with multicluster security and management for large, complex environments — plus a VM-only edition for organizations focused purely on virtual machine migration.</p>
+<h2 id="how-does-it-work">How does it work?</h2>
+<p>At its core, OpenShift runs your applications as containers orchestrated by Kubernetes, which automatically handles scheduling, scaling, networking, and recovery for those workloads across a cluster of machines. Red Hat adds a management console, built-in security controls, and a set of "operators" — add-on components you can enable from a single console to extend the platform, such as OpenShift GitOps and Pipelines for CI/CD, OpenShift Service Mesh and Serverless for microservices/infrastructure management, and OpenShift Observability for real-time monitoring. You can run OpenShift yourself (self-managed) on your own infrastructure or cloud, or let Red Hat/a cloud partner manage it for you as a hosted service — either way, the experience and tooling stay consistent, so teams use the same workflows regardless of where a given cluster lives.</p>
+<h2 id="why-do-i-need-it">Why do I need it?</h2>
+<p>If your organization is trying to modernize legacy applications, move faster on new cloud-native development, or deploy AI models into production, doing it with raw, unmanaged Kubernetes means your team has to build and maintain all the security hardening, update management, and operational tooling themselves — which is a significant ongoing burden and a common source of production incidents. OpenShift solves that by giving you a single, supported platform where application modernization, new development, VM migration, and AI deployment all happen with the same security model, tooling, and operational practices, instead of stitching together separate one-off solutions. It's particularly valuable if you're consolidating multiple application types (containers and VMs) onto one platform, need to deploy AI/agentic workloads consistently across hybrid cloud, or want built-in CI/CD and observability instead of assembling that tooling from scratch.</p>
+<h2 id="where-do-i-get-it">Where do I get it?</h2>
+<p>OpenShift is not sold through the self-serve Red Hat Store — purchasing typically goes through a sales conversation or a cloud marketplace. To get started, you can <strong>contact Red Hat sales</strong>: <a href="https://www.redhat.com/en/contact">https://www.redhat.com/en/contact</a>, purchase through a <strong>cloud marketplace</strong> (OpenShift is available as a managed service on partner clouds such as Google Cloud), or work through a Red Hat partner. No-cost trials and pay-as-you-go options are also available for evaluation before committing to a subscription.</p>
+<p>Red Hat publishes a central <a href="https://www.redhat.com/en/technologies/cloud-computing/openshift/pricing"><strong>OpenShift pricing comparison page</strong></a> covering all the managed cloud editions side by side; reserved-instance pricing starts as low as <strong>$0.076/hour</strong> (per 4 vCPU, 3-year contract). See each managed edition's own page in this project (ROSA, ARO, OpenShift Dedicated) for the specific published rates.</p>
+<h2 id="related-products">Related Products</h2>
+<p>OpenShift has by far the largest ecosystem of related products of anything in this project — editions, managed-service variants, bundled capabilities, and standalone tools that extend it. Grouped for clarity:</p>
+<p><strong>Editions &amp; managed-service variants</strong></p>
+<ul>
+<li><a href="red-hat-openshift-platform-plus.html">Red Hat OpenShift Platform Plus</a> — the most complete self-managed edition (adds Advanced Cluster Management, Advanced Cluster Security, Quay, and storage)</li>
+<li><a href="red-hat-openshift-kubernetes-engine.html">Red Hat OpenShift Kubernetes Engine</a> — entry-level, lower-cost edition with a reduced feature set</li>
+<li><a href="red-hat-openshift-virtualization-engine.html">Red Hat OpenShift Virtualization Engine</a> — self-managed, VM-only edition</li>
+<li><a href="red-hat-openshift-dedicated.html">Red Hat OpenShift Dedicated</a> — fully managed by Red Hat on AWS or Google Cloud</li>
+<li><a href="red-hat-openshift-service-on-aws-(rosa).html">Red Hat OpenShift Service on AWS (ROSA)</a> — native, jointly managed AWS service</li>
+<li><a href="azure-red-hat-openshift-(aro).html">Azure Red Hat OpenShift (ARO)</a> — native, jointly managed Azure service</li>
+</ul>
+<p><strong>Bundled capabilities (included with OpenShift)</strong></p>
+<ul>
+<li><a href="red-hat-openshift-virtualization.html">Red Hat OpenShift Virtualization</a> — run VMs alongside containers on any OpenShift edition</li>
+<li><a href="red-hat-openshift-gitops.html">Red Hat OpenShift GitOps</a> — Argo CD-based GitOps operator</li>
+<li><a href="red-hat-openshift-pipelines.html">Red Hat OpenShift Pipelines</a> — Tekton-based CI/CD</li>
+<li><a href="red-hat-openshift-service-mesh.html">Red Hat OpenShift Service Mesh</a> — Istio-based microservices connectivity/security</li>
+<li><a href="red-hat-openshift-serverless.html">Red Hat OpenShift Serverless</a> — Knative-based event-driven/scale-to-zero apps</li>
+<li><a href="red-hat-openshift-observability.html">Red Hat OpenShift Observability</a> — unified monitoring, logging, and tracing</li>
+<li><a href="red-hat-openshift-dev-spaces.html">Red Hat OpenShift Dev Spaces</a> — browser-based cloud development environments</li>
+<li><strong>Red Hat OpenShift AI</strong> — AI/ML model and agent lifecycle platform; fully documented under <a href="../red-hat-ai/red-hat-openshift-ai.html"><code>red-hat-ai/red-hat-openshift-ai.md</code></a> since it's also a core Red Hat AI product</li>
+</ul>
+<p><strong>Fleet management &amp; security (Platform Plus components, also available standalone)</strong></p>
+<ul>
+<li><a href="red-hat-advanced-cluster-management-for-kubernetes.html">Red Hat Advanced Cluster Management for Kubernetes</a> — multicluster fleet management and governance</li>
+<li><a href="red-hat-advanced-cluster-security-for-kubernetes.html">Red Hat Advanced Cluster Security for Kubernetes</a> — Kubernetes-native security across build/deploy/runtime</li>
+<li><a href="red-hat-quay.html">Red Hat Quay</a> — enterprise container registry</li>
+</ul>
+<p><strong>Developer experience &amp; software supply chain security</strong></p>
+<ul>
+<li><a href="red-hat-advanced-developer-suite.html">Red Hat Advanced Developer Suite</a> — bundled developer productivity + supply chain security suite (also connects to Lightwell)</li>
+<li><a href="red-hat-developer-hub.html">Red Hat Developer Hub</a> — Backstage-based internal developer portal</li>
+<li><a href="red-hat-trusted-profile-analyzer.html">Red Hat Trusted Profile Analyzer</a> — SBOM/CVE/VEX risk analysis</li>
+<li><a href="red-hat-trusted-artifact-signer.html">Red Hat Trusted Artifact Signer</a> — cryptographic artifact signing/verification</li>
+</ul>
+<p><strong>Local development &amp; AI assistance</strong></p>
+<ul>
+<li><a href="red-hat-openshift-local.html">Red Hat OpenShift Local</a> — free, single-node OpenShift cluster for your laptop</li>
+<li><a href="red-hat-openshift-lightspeed.html">Red Hat OpenShift Lightspeed</a> — generative AI assistant built into the OpenShift console</li>
+</ul>
+<h2 id="learn-more">Learn more</h2>
+<p>Red Hat's <a href="https://www.redhat.com/en/topics">Topics</a> index groups its educational content by subject. OpenShift is, by far, the largest cluster of related topics — covering containers, Kubernetes, cloud-native development, and the broader hybrid cloud platform ecosystem.</p>
+<div class="learn-more-columns">
+<div class="learn-more-column">
+<p><strong>Topics related to OpenShift:</strong></p>
+<ul>
+<li><a href="https://www.redhat.com/en/topics/5g-networks">5G networks</a></li>
+<li><a href="https://www.redhat.com/en/topics/api">APIs</a></li>
+<li><a href="https://www.redhat.com/en/topics/application-modernization">Application modernization</a></li>
+<li><a href="https://www.redhat.com/en/topics/big-data">Big data</a></li>
+<li><a href="https://www.redhat.com/en/topics/cloud-computing">Cloud computing</a></li>
+<li><a href="https://www.redhat.com/en/topics/cloud-native-apps">Cloud-native apps</a></li>
+<li><a href="https://www.redhat.com/en/topics/cloud-computing/what-are-cloud-services">Cloud services</a></li>
+<li><a href="https://www.redhat.com/en/topics/containers">Containers</a></li>
+<li><a href="https://www.redhat.com/en/topics/data-services">Data services</a></li>
+<li><a href="https://www.redhat.com/en/topics/data-storage">Data storage</a></li>
+<li><a href="https://www.redhat.com/en/topics/devops">DevOps</a></li>
+<li><a href="https://www.redhat.com/en/topics/healthcare-it">Healthcare IT</a></li>
+<li><a href="https://www.redhat.com/en/topics/hyperconverged-infrastructure">Hyperconverged infrastructure</a></li>
+<li><a href="https://www.redhat.com/en/topics/integration">Integration</a></li>
+<li><a href="https://www.redhat.com/en/topics/microservices">Microservices</a></li>
+<li><a href="https://www.redhat.com/en/topics/middleware">Middleware</a></li>
+<li><a href="https://www.redhat.com/en/topics/financial-services/what-is-payments-infrastructure">Modernizing payments infrastructure</a></li>
+<li><a href="https://www.redhat.com/en/topics/mobile">Mobile</a></li>
+<li><a href="https://www.redhat.com/en/topics/openstack">OpenStack</a></li>
+<li><a href="https://www.redhat.com/en/topics/virtualization">Virtualization</a></li>
+<li><a href="https://www.redhat.com/en/topics/platform-engineering">Platform engineering</a></li>
+</ul>
+</div>
+<div class="learn-more-column">
+<p><strong>Top articles:</strong></p>
+<ul>
+<li><a href="https://www.redhat.com/en/topics/containers/what-is-kubernetes">What is Kubernetes?</a></li>
+<li><a href="https://www.redhat.com/en/topics/cloud-native-apps/what-is-containerization">What is containerization?</a></li>
+<li><a href="https://www.redhat.com/en/topics/cloud-native-apps/what-is-a-container-registry">What is a container registry?</a></li>
+<li><a href="https://www.redhat.com/en/topics/containers/why-choose-red-hat-kubernetes">Why choose Red Hat for Kubernetes?</a></li>
+<li><a href="https://www.redhat.com/en/topics/containers/why-choose-red-hat-containers">Why choose Red Hat for containers?</a></li>
+<li><a href="https://www.redhat.com/en/topics/containers/what-is-docker">What is Docker?</a></li>
+<li><a href="https://www.redhat.com/en/topics/containers/what-is-container-orchestration">What is container orchestration?</a></li>
+<li><a href="https://www.redhat.com/en/topics/containers/containers-vs-vms">Containers vs VMs</a></li>
+<li><a href="https://www.redhat.com/en/topics/containers/what-is-a-kubernetes-cluster">What is a Kubernetes cluster?</a></li>
+<li><a href="https://www.redhat.com/en/topics/containers/kubernetes-architecture">Introduction to Kubernetes architecture</a></li>
+</ul>
+</div>
+</div>
+<h2 id="sources">Sources</h2>
+<ul>
+<li><a href="https://www.redhat.com/en/technologies/cloud-computing/openshift">https://www.redhat.com/en/technologies/cloud-computing/openshift</a></li>
+<li><a href="https://www.redhat.com/en/contact">https://www.redhat.com/en/contact</a></li>
+<li><a href="https://www.redhat.com/en/topics">https://www.redhat.com/en/topics</a></li>
+</ul>
+</main>
+<footer class="site-footer">
+  <p>Internal Red Hat product research reference. Not an official Red Hat publication.</p>
+</footer>
+<script src="../assets/theme.js"></script>
+</body>
+</html>

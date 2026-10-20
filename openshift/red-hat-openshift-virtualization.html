@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Red Hat OpenShift Virtualization — What / How / Why / Where · Red Hat Product Research</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;600;700&family=Red+Hat+Text:ital,wght@0,400..700;1,400..700&family=Red+Hat+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="site-header-top">
+    <a class="site-brand" href="../index.html">
+      <span class="site-title">Red Hat Product Research</span>
+    </a>
+    <div class="site-header-actions">
+      <button class="header-btn" id="theme-toggle" type="button">Toggle theme</button>
+    </div>
+  </div>
+  <nav class="section-nav" aria-label="Products">
+    <a class="section-tab" href="../index.html">Home</a>
+    <a class="section-tab" href="../rhel/index.html">RHEL</a>
+    <a class="section-tab" href="../ansible-automation-platform/index.html">Ansible Automation Platform</a>
+    <a class="section-tab active" href="../openshift/index.html">OpenShift</a>
+    <a class="section-tab" href="../red-hat-ai/index.html">Red Hat AI</a>
+    <a class="section-tab" href="../red-hat-lightwell/index.html">Red Hat Lightwell</a>
+  </nav>
+</header>
+<main class="content" id="main">
+<h1 id="red-hat-openshift-virtualization-what-how-why-where">Red Hat OpenShift Virtualization — What / How / Why / Where</h1>
+<h2 id="what-is-it">What is it?</h2>
+<p><strong>Red Hat OpenShift Virtualization is a built-in OpenShift capability that lets you migrate, run, and manage traditional virtual machines alongside containers and serverless workloads on the same unified platform.</strong></p>
+<p>Unlike OpenShift Virtualization Engine (a separate, VM-only edition), this is the virtualization feature included in every OpenShift edition — meant for teams who want VMs and containers managed together, not VMs instead of containers.</p>
+<h2 id="how-does-it-work">How does it work?</h2>
+<p>Built on the open source KVM hypervisor and the KubeVirt project, OpenShift Virtualization runs each VM as a pod on OpenShift, with its own control plane managed like any other containerized workload — access, storage, and start/stop/restart/delete operations are all handled through the standard OpenShift/Kubernetes interface. It's included as an operator with every OpenShift edition, out of the box. The included migration toolkit for virtualization supports both "lift and shift" migrations and gradual migration over time, so you can bring existing VMs onto OpenShift without rewriting them, and then modernize at your own pace — containerizing, adopting microservices, or integrating AI — without disrupting the VM workloads still running as-is.</p>
+<h2 id="why-do-i-need-it">Why do I need it?</h2>
+<p>Most organizations have a mix of legacy VM-based applications and newer containerized workloads, and running them on two completely separate platforms means two sets of tools, two operational models, and extra complexity for teams supporting both. OpenShift Virtualization removes that split: VMs and containers are managed consistently from the same console, with the same CI/CD, GitOps, and service mesh tooling available to both, so modernization becomes a gradual journey rather than a disruptive all-at-once migration.</p>
+<h2 id="where-do-i-get-it">Where do I get it?</h2>
+<p>Included with any Red Hat OpenShift edition at no additional cost — there's nothing separate to buy. If you don't yet have OpenShift, <strong>contact Red Hat sales</strong>: <a href="https://www.redhat.com/en/contact">https://www.redhat.com/en/contact</a>.</p>
+<h2 id="sources">Sources</h2>
+<ul>
+<li><a href="https://www.redhat.com/en/technologies/cloud-computing/openshift/virtualization">https://www.redhat.com/en/technologies/cloud-computing/openshift/virtualization</a></li>
+<li><a href="https://developers.redhat.com/products/openshift/virtualization">https://developers.redhat.com/products/openshift/virtualization</a></li>
+</ul>
+</main>
+<footer class="site-footer">
+  <p>Internal Red Hat product research reference. Not an official Red Hat publication.</p>
+</footer>
+<script src="../assets/theme.js"></script>
+</body>
+</html>

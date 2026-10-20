@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Red Hat Trusted Profile Analyzer — What / How / Why / Where · Red Hat Product Research</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;600;700&family=Red+Hat+Text:ital,wght@0,400..700;1,400..700&family=Red+Hat+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="site-header-top">
+    <a class="site-brand" href="../index.html">
+      <span class="site-title">Red Hat Product Research</span>
+    </a>
+    <div class="site-header-actions">
+      <button class="header-btn" id="theme-toggle" type="button">Toggle theme</button>
+    </div>
+  </div>
+  <nav class="section-nav" aria-label="Products">
+    <a class="section-tab" href="../index.html">Home</a>
+    <a class="section-tab" href="../rhel/index.html">RHEL</a>
+    <a class="section-tab" href="../ansible-automation-platform/index.html">Ansible Automation Platform</a>
+    <a class="section-tab active" href="../openshift/index.html">OpenShift</a>
+    <a class="section-tab" href="../red-hat-ai/index.html">Red Hat AI</a>
+    <a class="section-tab" href="../red-hat-lightwell/index.html">Red Hat Lightwell</a>
+  </nav>
+</header>
+<main class="content" id="main">
+<h1 id="red-hat-trusted-profile-analyzer-what-how-why-where">Red Hat Trusted Profile Analyzer — What / How / Why / Where</h1>
+<h2 id="what-is-it">What is it?</h2>
+<p><strong>Red Hat Trusted Profile Analyzer manages your organization's Software Bills of Materials (SBOMs), vendor VEX, and CVE data so developers and security teams can analyze software risk across custom, third-party, and open source components from one shared system of record.</strong></p>
+<p>It's part of Red Hat Trusted Software Supply Chain, focused specifically on the "do we actually know what's in our software, and is any of it risky" question.</p>
+<h2 id="how-does-it-work">How does it work?</h2>
+<p>Trusted Profile Analyzer stores and manages SBOMs and cross-references them against CVEs and security advisories that are continuously ingested from trusted sources, including Red Hat itself. That cross-referencing means you can quickly see, for any given application or component, exactly what vulnerabilities apply to it — without manually matching dependency lists against vulnerability databases yourself. It's designed to plug into the development process early, so risky components get flagged before they become expensive rework later in production.</p>
+<h2 id="why-do-i-need-it">Why do I need it?</h2>
+<p>Over two-thirds of application code today is inherited open source dependencies, and most organizations don't have a reliable, continuously updated system of record for what's actually in their software or which of those components carry known vulnerabilities — so risk is often discovered late, after a vulnerability is already in production. Trusted Profile Analyzer solves that by giving you a curated, continuously cross-referenced view of your software risk profile across all your code, reducing both security exposure and the costly rework of fixing issues after release.</p>
+<h2 id="where-do-i-get-it">Where do I get it?</h2>
+<p>Available standalone or bundled (with Red Hat Developer Hub and Red Hat Trusted Artifact Signer) as part of <strong>Red Hat Advanced Developer Suite</strong>. <strong>Contact Red Hat sales</strong>: <a href="https://www.redhat.com/en/contact">https://www.redhat.com/en/contact</a>.</p>
+<h2 id="sources">Sources</h2>
+<ul>
+<li><a href="https://developers.redhat.com/products/trusted-profile-analyzer">https://developers.redhat.com/products/trusted-profile-analyzer</a></li>
+<li><a href="https://developers.redhat.com/products/trusted-software-supply-chain">https://developers.redhat.com/products/trusted-software-supply-chain</a></li>
+</ul>
+</main>
+<footer class="site-footer">
+  <p>Internal Red Hat product research reference. Not an official Red Hat publication.</p>
+</footer>
+<script src="../assets/theme.js"></script>
+</body>
+</html>

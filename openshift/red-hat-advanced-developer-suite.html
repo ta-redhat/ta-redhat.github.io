@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Red Hat Advanced Developer Suite — What / How / Why / Where · Red Hat Product Research</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;600;700&family=Red+Hat+Text:ital,wght@0,400..700;1,400..700&family=Red+Hat+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="site-header-top">
+    <a class="site-brand" href="../index.html">
+      <span class="site-title">Red Hat Product Research</span>
+    </a>
+    <div class="site-header-actions">
+      <button class="header-btn" id="theme-toggle" type="button">Toggle theme</button>
+    </div>
+  </div>
+  <nav class="section-nav" aria-label="Products">
+    <a class="section-tab" href="../index.html">Home</a>
+    <a class="section-tab" href="../rhel/index.html">RHEL</a>
+    <a class="section-tab" href="../ansible-automation-platform/index.html">Ansible Automation Platform</a>
+    <a class="section-tab active" href="../openshift/index.html">OpenShift</a>
+    <a class="section-tab" href="../red-hat-ai/index.html">Red Hat AI</a>
+    <a class="section-tab" href="../red-hat-lightwell/index.html">Red Hat Lightwell</a>
+  </nav>
+</header>
+<main class="content" id="main">
+<h1 id="red-hat-advanced-developer-suite-what-how-why-where">Red Hat Advanced Developer Suite — What / How / Why / Where</h1>
+<h2 id="what-is-it">What is it?</h2>
+<p><strong>Red Hat Advanced Developer Suite is a curated bundle of developer-productivity and software-supply-chain-security tools that extends OpenShift, letting platform engineers enforce governance while developers and AI agents build and ship faster.</strong></p>
+<p>It combines an internal developer portal, software supply chain security, and automated vulnerability remediation into one offering, aimed at teams that need both velocity and strict security guardrails on the same software delivery lifecycle.</p>
+<h2 id="how-does-it-work">How does it work?</h2>
+<p>The suite bundles <strong>Red Hat Developer Hub</strong> (a Backstage-based internal developer portal providing self-service workflows, "golden path" templates, and enterprise context for developers and AI agents), <strong>Red Hat Trusted Profile Analyzer</strong> (real-time vulnerability tracking and SBOM management to build trust in your codebase), and <strong>Red Hat Trusted Artifact Signer</strong> (cryptographic signing and verification of software artifacts, AI models, and metadata). It automates SLSA Level 3 build pipelines, provenance tracking, and vulnerability analysis, and integrates with OpenShift Pipelines, OpenShift GitOps, OpenShift Dev Spaces, Podman Desktop, and the migration toolkit for applications. Notably, it connects directly to <strong>Red Hat Lightwell</strong>: dependency patches from Lightwell can flow straight into automated deployment pipelines on OpenShift, shrinking the critical CVE patch-to-production window from months to days without application downtime.</p>
+<h2 id="why-do-i-need-it">Why do I need it?</h2>
+<p>Developers are under constant pressure to ship faster, but that pressure runs directly against the rising risk of open source supply chain attacks — and most organizations end up choosing one or compromising the other, because enforcing supply-chain security usually means manual review gates that slow delivery down. Advanced Developer Suite is designed to remove that trade-off: it gives developers (and AI coding agents) self-service tools and golden paths to move fast, while background governance, automated signing, and SBOM/CVE tracking enforce security policy without manual bottlenecks — including automatically turning a Lightwell-identified vulnerability into a deployed fix.</p>
+<h2 id="where-do-i-get-it">Where do I get it?</h2>
+<p>Supports deployment on OpenShift clusters (including ROSA and Azure Red Hat OpenShift) and other Kubernetes providers. A sales-assisted product trial is available. <strong>Contact Red Hat sales</strong>: <a href="https://www.redhat.com/en/contact">https://www.redhat.com/en/contact</a>.</p>
+<h2 id="sources">Sources</h2>
+<ul>
+<li><a href="https://www.redhat.com/en/products/advanced-developer-suite">https://www.redhat.com/en/products/advanced-developer-suite</a></li>
+<li><a href="https://developers.redhat.com/articles/2025/05/20/what-red-hat-advanced-developer-suite-overview">https://developers.redhat.com/articles/2025/05/20/what-red-hat-advanced-developer-suite-overview</a></li>
+<li><a href="https://www.redhat.com/en/about/press-releases/red-hat-delivers-red-hat-advanced-developer-suite-accelerate-application-development">https://www.redhat.com/en/about/press-releases/red-hat-delivers-red-hat-advanced-developer-suite-accelerate-application-development</a></li>
+</ul>
+</main>
+<footer class="site-footer">
+  <p>Internal Red Hat product research reference. Not an official Red Hat publication.</p>
+</footer>
+<script src="../assets/theme.js"></script>
+</body>
+</html>

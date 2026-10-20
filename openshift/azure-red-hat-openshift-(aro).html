@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Azure Red Hat OpenShift (ARO) — What / How / Why / Where · Red Hat Product Research</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;600;700&family=Red+Hat+Text:ital,wght@0,400..700;1,400..700&family=Red+Hat+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="site-header-top">
+    <a class="site-brand" href="../index.html">
+      <span class="site-title">Red Hat Product Research</span>
+    </a>
+    <div class="site-header-actions">
+      <button class="header-btn" id="theme-toggle" type="button">Toggle theme</button>
+    </div>
+  </div>
+  <nav class="section-nav" aria-label="Products">
+    <a class="section-tab" href="../index.html">Home</a>
+    <a class="section-tab" href="../rhel/index.html">RHEL</a>
+    <a class="section-tab" href="../ansible-automation-platform/index.html">Ansible Automation Platform</a>
+    <a class="section-tab active" href="../openshift/index.html">OpenShift</a>
+    <a class="section-tab" href="../red-hat-ai/index.html">Red Hat AI</a>
+    <a class="section-tab" href="../red-hat-lightwell/index.html">Red Hat Lightwell</a>
+  </nav>
+</header>
+<main class="content" id="main">
+<h1 id="azure-red-hat-openshift-aro-what-how-why-where">Azure Red Hat OpenShift (ARO) — What / How / Why / Where</h1>
+<h2 id="what-is-it">What is it?</h2>
+<p><strong>Azure Red Hat OpenShift (ARO) is a fully managed OpenShift service, jointly engineered, operated, and supported by Microsoft and Red Hat, available as a native service inside Microsoft Azure.</strong></p>
+<p>It's the Azure equivalent of ROSA on AWS — the same OpenShift experience, run and billed as a first-party Azure offering, including managing VMs and containers side by side via OpenShift Virtualization on Azure.</p>
+<h2 id="how-does-it-work">How does it work?</h2>
+<p>Each ARO cluster has a fully managed control plane and application nodes, with installation, maintenance, and critical patch upgrades performed by joint Red Hat/Microsoft site reliability teams under a 99.95% uptime SLA. ARO is billed directly through Microsoft, and customers can apply existing Azure Monetary Commitments toward it. Because ARO is based on OpenShift's upstream code, the experience is identical to on-prem OpenShift — the same logging, service mesh, serverless, DevOps pipelines, and GitOps capabilities — effectively bringing the OpenShift on-prem experience into the Azure cloud. A newer deployment option, ARO with hosted control planes, runs the control plane as a separate managed service from your worker nodes for cleaner maintenance boundaries.</p>
+<h2 id="why-do-i-need-it">Why do I need it?</h2>
+<p>For organizations already standardized on Microsoft Azure, running OpenShift any other way means either self-managing the platform or dealing with a separate cloud and vendor relationship outside your existing Azure agreements. ARO removes both frictions: it's billed through Microsoft, counts toward Azure spending commitments, and is operated jointly by people who know both OpenShift and Azure — giving you OpenShift's full feature set with Azure-native procurement and support.</p>
+<h2 id="where-do-i-get-it">Where do I get it?</h2>
+<p>Start from the Azure Portal and select ARO, or get expert help choosing the right OpenShift offering for Azure. Total cost = ARO service fees + Azure infrastructure fees. <strong>Contact Red Hat sales</strong>: <a href="https://www.redhat.com/en/contact">https://www.redhat.com/en/contact</a>, or go through Azure directly: <a href="https://azure.microsoft.com/en-us/products/openshift">https://azure.microsoft.com/en-us/products/openshift</a>.</p>
+<p><strong>Published Azure pricing</strong> (<a href="https://azure.microsoft.com/en-us/pricing/details/openshift/">azure.microsoft.com/en-us/pricing/details/openshift</a>): the OpenShift license component is a flat <strong>$0.171/hour per 4 worker vCPUs (cores)</strong>, the same rate regardless of VM series, size, or generation. Azure infrastructure (control plane if applicable, worker VMs, storage, networking) is billed separately at standard Azure Linux VM rates. Pay-as-you-go and 1- or 3-year reservations are both available on the license component.</p>
+<h2 id="sources">Sources</h2>
+<ul>
+<li><a href="https://www.redhat.com/en/technologies/cloud-computing/openshift/azure">https://www.redhat.com/en/technologies/cloud-computing/openshift/azure</a></li>
+<li><a href="https://azure.microsoft.com/en-us/products/openshift">https://azure.microsoft.com/en-us/products/openshift</a></li>
+<li><a href="https://www.redhat.com/en/technologies/cloud-computing/openshift/azure/get-started">https://www.redhat.com/en/technologies/cloud-computing/openshift/azure/get-started</a></li>
+</ul>
+</main>
+<footer class="site-footer">
+  <p>Internal Red Hat product research reference. Not an official Red Hat publication.</p>
+</footer>
+<script src="../assets/theme.js"></script>
+</body>
+</html>

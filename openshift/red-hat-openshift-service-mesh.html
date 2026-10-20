@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Red Hat OpenShift Service Mesh — What / How / Why / Where · Red Hat Product Research</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;600;700&family=Red+Hat+Text:ital,wght@0,400..700;1,400..700&family=Red+Hat+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="site-header-top">
+    <a class="site-brand" href="../index.html">
+      <span class="site-title">Red Hat Product Research</span>
+    </a>
+    <div class="site-header-actions">
+      <button class="header-btn" id="theme-toggle" type="button">Toggle theme</button>
+    </div>
+  </div>
+  <nav class="section-nav" aria-label="Products">
+    <a class="section-tab" href="../index.html">Home</a>
+    <a class="section-tab" href="../rhel/index.html">RHEL</a>
+    <a class="section-tab" href="../ansible-automation-platform/index.html">Ansible Automation Platform</a>
+    <a class="section-tab active" href="../openshift/index.html">OpenShift</a>
+    <a class="section-tab" href="../red-hat-ai/index.html">Red Hat AI</a>
+    <a class="section-tab" href="../red-hat-lightwell/index.html">Red Hat Lightwell</a>
+  </nav>
+</header>
+<main class="content" id="main">
+<h1 id="red-hat-openshift-service-mesh-what-how-why-where">Red Hat OpenShift Service Mesh — What / How / Why / Where</h1>
+<h2 id="what-is-it">What is it?</h2>
+<p><strong>Red Hat OpenShift Service Mesh gives you a uniform way to connect, secure, monitor, and control communication between microservices — without changing a single line of application code.</strong></p>
+<p>As applications break apart into many small, independently deployed microservices, keeping track of how they talk to each other, securing those connections, and diagnosing failures gets hard fast. Service Mesh exists to manage exactly that layer of communication.</p>
+<h2 id="how-does-it-work">How does it work?</h2>
+<p>Built on the open source <strong>Istio</strong>, <strong>Envoy</strong>, and <strong>Kiali</strong> projects, OpenShift Service Mesh inserts itself into service-to-service traffic to provide discovery, load balancing, service-to-service authentication, failure recovery, metrics, and more advanced capabilities like A/B testing, canary rollouts, and end-to-end tracing — all configured centrally rather than coded into each service. The Istioctl CLI and Kiali/OpenShift Service Mesh Console dashboards give visibility into and control over the mesh. It's production-ready, pre-validated, and fully supported on OpenShift, and integrates with other OpenShift capabilities like GitOps, Observability, and OpenShift Virtualization — the latest release (3.4) even brings AI-powered diagnostics via Red Hat OpenShift Lightspeed into Kiali as a technology preview.</p>
+<h2 id="why-do-i-need-it">Why do I need it?</h2>
+<p>As soon as an application is broken into more than a few microservices, implementing consistent security, retries, and observability in every single service's code becomes impractical — and inconsistent implementations become a real operational risk. Service Mesh solves that by applying those policies uniformly at the infrastructure layer instead, supporting zero-trust networking at scale and removing the need to duplicate connectivity/security logic across every service your teams write, regardless of what language each one is built in.</p>
+<h2 id="where-do-i-get-it">Where do I get it?</h2>
+<p>Included with Red Hat OpenShift — install the operator from OperatorHub. If you don't yet have OpenShift, <strong>contact Red Hat sales</strong>: <a href="https://www.redhat.com/en/contact">https://www.redhat.com/en/contact</a>.</p>
+<h2 id="sources">Sources</h2>
+<ul>
+<li><a href="https://www.redhat.com/en/technologies/cloud-computing/openshift/what-is-openshift-service-mesh">https://www.redhat.com/en/technologies/cloud-computing/openshift/what-is-openshift-service-mesh</a></li>
+<li><a href="https://www.redhat.com/en/blog/introducing-red-hat-openshift-service-mesh-34">https://www.redhat.com/en/blog/introducing-red-hat-openshift-service-mesh-34</a></li>
+</ul>
+</main>
+<footer class="site-footer">
+  <p>Internal Red Hat product research reference. Not an official Red Hat publication.</p>
+</footer>
+<script src="../assets/theme.js"></script>
+</body>
+</html>

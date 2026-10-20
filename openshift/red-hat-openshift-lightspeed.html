@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Red Hat OpenShift Lightspeed — What / How / Why / Where · Red Hat Product Research</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;600;700&family=Red+Hat+Text:ital,wght@0,400..700;1,400..700&family=Red+Hat+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="site-header-top">
+    <a class="site-brand" href="../index.html">
+      <span class="site-title">Red Hat Product Research</span>
+    </a>
+    <div class="site-header-actions">
+      <button class="header-btn" id="theme-toggle" type="button">Toggle theme</button>
+    </div>
+  </div>
+  <nav class="section-nav" aria-label="Products">
+    <a class="section-tab" href="../index.html">Home</a>
+    <a class="section-tab" href="../rhel/index.html">RHEL</a>
+    <a class="section-tab" href="../ansible-automation-platform/index.html">Ansible Automation Platform</a>
+    <a class="section-tab active" href="../openshift/index.html">OpenShift</a>
+    <a class="section-tab" href="../red-hat-ai/index.html">Red Hat AI</a>
+    <a class="section-tab" href="../red-hat-lightwell/index.html">Red Hat Lightwell</a>
+  </nav>
+</header>
+<main class="content" id="main">
+<h1 id="red-hat-openshift-lightspeed-what-how-why-where">Red Hat OpenShift Lightspeed — What / How / Why / Where</h1>
+<h2 id="what-is-it">What is it?</h2>
+<p><strong>Red Hat OpenShift Lightspeed is a generative AI virtual assistant built directly into the OpenShift web console, letting users ask natural-language questions about OpenShift and get step-by-step guidance in return.</strong></p>
+<p>It's aimed at users of every skill level — helping new users learn OpenShift faster while also speeding up day-to-day troubleshooting for experienced administrators.</p>
+<h2 id="how-does-it-work">How does it work?</h2>
+<p>OpenShift Lightspeed generates answers using the official OpenShift documentation (and, on ROSA clusters, ROSA-specific documentation automatically), with every knowledge answer linking back to the source documentation so you can verify where the information came from. Beyond answering questions, it helps troubleshoot directly: you can attach an alert message, a YAML file, or a pod's status information to the chat and ask what to do about it. It's installed via OperatorHub and requires OpenShift 4.15+ plus a supported LLM provider — IBM watsonx, OpenAI, Microsoft Azure OpenAI Service, or models served by Red Hat Enterprise Linux AI or Red Hat OpenShift AI. Red Hat doesn't provide or endorse a specific model; you bring your own connected provider.</p>
+<h2 id="why-do-i-need-it">Why do I need it?</h2>
+<p>Learning OpenShift's full surface area — and quickly diagnosing why a specific pod or alert is misbehaving — traditionally means digging through documentation or escalating to a more experienced team member, both of which slow things down. OpenShift Lightspeed shortens that loop: instead of searching docs or waiting on someone else, you ask directly inside the console and get a documented, contextual answer (or a diagnosis of the specific object you're looking at) immediately.</p>
+<h2 id="where-do-i-get-it">Where do I get it?</h2>
+<p>Available through OpenShift OperatorHub; requires OpenShift 4.15+ and your own LLM provider subscription. If you don't yet have OpenShift, <strong>contact Red Hat sales</strong>: <a href="https://www.redhat.com/en/contact">https://www.redhat.com/en/contact</a>.</p>
+<h2 id="sources">Sources</h2>
+<ul>
+<li><a href="https://www.redhat.com/en/technologies/cloud-computing/openshift/lightspeed">https://www.redhat.com/en/technologies/cloud-computing/openshift/lightspeed</a></li>
+<li><a href="https://developers.redhat.com/products/openshift/lightspeed">https://developers.redhat.com/products/openshift/lightspeed</a></li>
+</ul>
+</main>
+<footer class="site-footer">
+  <p>Internal Red Hat product research reference. Not an official Red Hat publication.</p>
+</footer>
+<script src="../assets/theme.js"></script>
+</body>
+</html>

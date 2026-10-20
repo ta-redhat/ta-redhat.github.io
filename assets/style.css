@@ -1,0 +1,312 @@
+/* Plain static stylesheet, no build tooling required.
+   Palette/typography adapted from the Red Hat corporate style guide:
+   https://corporate-style-guide-fe4007.pages.redhat.com/ */
+
+:root {
+  --font-sans: "Red Hat Text", system-ui, -apple-system, sans-serif;
+  --font-display: "Red Hat Display", "Red Hat Text", system-ui, sans-serif;
+  --font-mono: "Red Hat Mono", "SFMono-Regular", Consolas, monospace;
+
+  --rh-red: #ee0000;
+  --rh-black: #000000;
+  --rh-white: #ffffff;
+  --rh-gray-10: #f2f2f2;
+  --rh-gray-20: #e0e0e0;
+  --rh-gray-50: #737373;
+  --rh-gray-90: #2e2e2e;
+  --rh-gray-95: #151515;
+
+  --color-text: var(--rh-gray-95);
+  --color-text-muted: var(--rh-gray-50);
+  --color-bg: var(--rh-white);
+  --color-surface: var(--rh-gray-10);
+  --color-border: var(--rh-gray-20);
+  --color-accent: var(--rh-red);
+
+  --max-content: 70ch;
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+}
+
+[data-theme="dark"] {
+  --color-text: var(--rh-gray-10);
+  --color-text-muted: #b0b0b0;
+  --color-bg: var(--rh-gray-95);
+  --color-surface: var(--rh-gray-90);
+  --color-border: #3a3a3a;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --color-text: var(--rh-gray-10);
+    --color-text-muted: #b0b0b0;
+    --color-bg: var(--rh-gray-95);
+    --color-surface: var(--rh-gray-90);
+    --color-border: #3a3a3a;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  color-scheme: light dark;
+}
+
+html[data-theme="light"] {
+  color-scheme: light;
+}
+
+html[data-theme="dark"] {
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-text);
+  background: var(--color-bg);
+}
+
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: var(--space-md);
+  z-index: 100;
+  padding: var(--space-sm) var(--space-md);
+  background: var(--color-bg);
+  color: var(--color-accent);
+  font-weight: 600;
+  text-decoration: none;
+  border: 2px solid var(--color-accent);
+  border-radius: 4px;
+}
+
+.skip-link:focus {
+  top: var(--space-md);
+}
+
+/* Header */
+.site-header {
+  padding: var(--space-md) var(--space-xl);
+  background: var(--color-bg);
+  border-bottom: 1px solid var(--color-border);
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
+
+.site-header::before {
+  content: "";
+  display: block;
+  height: 3px;
+  margin: calc(-1 * var(--space-md)) calc(-1 * var(--space-xl)) var(--space-md);
+  background: var(--rh-red);
+}
+
+.site-header-top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-md);
+  margin-bottom: var(--space-md);
+}
+
+.site-brand {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--color-text);
+}
+
+.site-title {
+  font-family: var(--font-display);
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.header-btn {
+  padding: var(--space-sm) var(--space-md);
+  font-family: var(--font-sans);
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--color-text);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.header-btn:hover,
+.header-btn:focus {
+  border-color: var(--color-accent);
+}
+
+.section-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+}
+
+.section-tab {
+  padding: var(--space-sm) var(--space-md);
+  font-family: var(--font-display);
+  font-size: 0.9375rem;
+  font-weight: 500;
+  color: var(--color-text-muted);
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+}
+
+.section-tab:hover,
+.section-tab:focus {
+  color: var(--color-text);
+}
+
+.section-tab.active {
+  color: var(--color-accent);
+  border-bottom-color: var(--color-accent);
+}
+
+/* Content */
+.content {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: var(--space-xl);
+}
+
+.content h1 {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  margin: 0 0 var(--space-lg);
+}
+
+.content h2,
+.content h3 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  margin: var(--space-xl) 0 var(--space-sm);
+}
+
+.content h2 {
+  font-size: 1.375rem;
+  padding-top: var(--space-md);
+  border-top: 1px solid var(--color-border);
+}
+
+.content h2:first-of-type {
+  border-top: none;
+  padding-top: 0;
+}
+
+.content h3 {
+  font-size: 1.125rem;
+}
+
+.content p {
+  margin: 0 0 var(--space-md);
+}
+
+.content ul,
+.content ol {
+  margin: 0 0 var(--space-md);
+  padding-left: 1.5rem;
+}
+
+.content li {
+  margin-bottom: var(--space-xs);
+}
+
+.content a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+.content a:hover {
+  text-decoration: underline;
+}
+
+.content code {
+  font-family: var(--font-mono);
+  font-size: 0.875em;
+  background: var(--color-surface);
+  padding: 0.1em 0.35em;
+  border-radius: 3px;
+}
+
+.content table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: var(--space-lg) 0;
+  font-size: 0.9375rem;
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.content th,
+.content td {
+  border-bottom: 1px solid var(--color-border);
+  padding: var(--space-sm) var(--space-md);
+  text-align: left;
+  vertical-align: top;
+}
+
+.content tr:last-child td {
+  border-bottom: none;
+}
+
+.content thead th {
+  background: var(--color-surface);
+  font-weight: 600;
+}
+
+.learn-more-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-xl);
+  align-items: start;
+}
+
+.learn-more-column > p {
+  margin-bottom: var(--space-sm);
+}
+
+.learn-more-column > ul {
+  margin-bottom: 0;
+}
+
+@media (max-width: 640px) {
+  .learn-more-columns {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+}
+
+.site-footer {
+  max-width: 860px;
+  margin: var(--space-2xl) auto var(--space-lg);
+  padding: var(--space-lg) var(--space-xl) 0;
+  font-size: 0.8125rem;
+  color: var(--color-text-muted);
+  border-top: 1px solid var(--color-border);
+}
+
+@media (max-width: 640px) {
+  .content,
+  .site-footer {
+    padding-left: var(--space-md);
+    padding-right: var(--space-md);
+  }
+}

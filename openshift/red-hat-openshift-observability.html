@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Red Hat OpenShift Observability — What / How / Why / Where · Red Hat Product Research</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;600;700&family=Red+Hat+Text:ital,wght@0,400..700;1,400..700&family=Red+Hat+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="site-header-top">
+    <a class="site-brand" href="../index.html">
+      <span class="site-title">Red Hat Product Research</span>
+    </a>
+    <div class="site-header-actions">
+      <button class="header-btn" id="theme-toggle" type="button">Toggle theme</button>
+    </div>
+  </div>
+  <nav class="section-nav" aria-label="Products">
+    <a class="section-tab" href="../index.html">Home</a>
+    <a class="section-tab" href="../rhel/index.html">RHEL</a>
+    <a class="section-tab" href="../ansible-automation-platform/index.html">Ansible Automation Platform</a>
+    <a class="section-tab active" href="../openshift/index.html">OpenShift</a>
+    <a class="section-tab" href="../red-hat-ai/index.html">Red Hat AI</a>
+    <a class="section-tab" href="../red-hat-lightwell/index.html">Red Hat Lightwell</a>
+  </nav>
+</header>
+<main class="content" id="main">
+<h1 id="red-hat-openshift-observability-what-how-why-where">Red Hat OpenShift Observability — What / How / Why / Where</h1>
+<h2 id="what-is-it">What is it?</h2>
+<p><strong>Red Hat OpenShift Observability is a unified set of capabilities — monitoring, logging, distributed tracing, OpenTelemetry, network observability, and power monitoring — for diagnosing the health and performance of applications and infrastructure running on OpenShift.</strong></p>
+<p>Instead of stitching together separate tools for metrics, logs, and traces, Observability connects open source tooling into one coherent solution built into the platform.</p>
+<h2 id="how-does-it-work">How does it work?</h2>
+<p>Monitoring is powered by the Cluster Monitoring Operator using Prometheus, Alertmanager, and Thanos Querier to track application and cluster health. Logging collects, visualizes, forwards, and stores log data (via Loki-based storage), supporting custom alerts and recorded metrics. Distributed tracing follows requests across your microservices to analyze latency, find root causes, and understand service dependencies, using the Red Hat build of OpenTelemetry for standardized, vendor-neutral data collection. The Cluster Observability Operator adds UI visualization directly in the OpenShift console, including <strong>Korrel8r</strong>, which correlates signals — so you can jump from an alert straight to the related logs, or from a log entry to related traces — without switching between separate dashboards.</p>
+<h2 id="why-do-i-need-it">Why do I need it?</h2>
+<p>Diagnosing an issue in a modern, distributed application often means hunting across several disconnected tools — one for metrics, another for logs, another for traces — before you can even start root-causing the problem, which slows down incident response. OpenShift Observability solves that by collecting, correlating, and visualizing all of that signal data in one place using open standards (so you're not locked into a single proprietary vendor), cutting the time spent jumping between tools during troubleshooting.</p>
+<h2 id="where-do-i-get-it">Where do I get it?</h2>
+<p>Included with Red Hat OpenShift as a set of operators/components you enable as needed. If you don't yet have OpenShift, <strong>contact Red Hat sales</strong>: <a href="https://www.redhat.com/en/contact">https://www.redhat.com/en/contact</a>.</p>
+<h2 id="sources">Sources</h2>
+<ul>
+<li><a href="https://www.redhat.com/en/technologies/cloud-computing/openshift/observability">https://www.redhat.com/en/technologies/cloud-computing/openshift/observability</a></li>
+<li><a href="https://docs.redhat.com/en/documentation/openshift_container_platform/4.20/observability/observability_overview/observability-overview">https://docs.redhat.com/en/documentation/openshift_container_platform/4.20/observability/observability_overview/observability-overview</a></li>
+</ul>
+</main>
+<footer class="site-footer">
+  <p>Internal Red Hat product research reference. Not an official Red Hat publication.</p>
+</footer>
+<script src="../assets/theme.js"></script>
+</body>
+</html>

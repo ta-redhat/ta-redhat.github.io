@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Red Hat Quay — What / How / Why / Where · Red Hat Product Research</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;600;700&family=Red+Hat+Text:ital,wght@0,400..700;1,400..700&family=Red+Hat+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="site-header-top">
+    <a class="site-brand" href="../index.html">
+      <span class="site-title">Red Hat Product Research</span>
+    </a>
+    <div class="site-header-actions">
+      <button class="header-btn" id="theme-toggle" type="button">Toggle theme</button>
+    </div>
+  </div>
+  <nav class="section-nav" aria-label="Products">
+    <a class="section-tab" href="../index.html">Home</a>
+    <a class="section-tab" href="../rhel/index.html">RHEL</a>
+    <a class="section-tab" href="../ansible-automation-platform/index.html">Ansible Automation Platform</a>
+    <a class="section-tab active" href="../openshift/index.html">OpenShift</a>
+    <a class="section-tab" href="../red-hat-ai/index.html">Red Hat AI</a>
+    <a class="section-tab" href="../red-hat-lightwell/index.html">Red Hat Lightwell</a>
+  </nav>
+</header>
+<main class="content" id="main">
+<h1 id="red-hat-quay-what-how-why-where">Red Hat Quay — What / How / Why / Where</h1>
+<h2 id="what-is-it">What is it?</h2>
+<p><strong>Red Hat Quay is an enterprise-grade, security-focused container registry for storing, distributing, scanning, and governing container images and cloud-native artifacts across datacenter, cloud, OpenShift, and Kubernetes environments.</strong></p>
+<p>It's the trusted, central source of truth that container platforms rely on to pull images from — built on the same codebase that powers the public Quay.io service, which delivers millions of images daily.</p>
+<h2 id="how-does-it-work">How does it work?</h2>
+<p>Quay continuously analyzes container images for security vulnerabilities as they're stored, flagging issues before a given image is ever deployed, and offers a scale-out, geo-replicated architecture so a single registry can serve thousands of clusters across geographically distributed sites reliably. It provides granular access control with a full audit trail for team collaboration on shared content. Quay is available three ways: as a self-managed standalone product you run yourself (priced per deployment, purchasable with OpenShift or separately), included with Red Hat OpenShift Platform Plus, or as <strong>Quay.io</strong>, a fully managed hosted SaaS registry with public and private repository options priced per number of private repositories.</p>
+<h2 id="why-do-i-need-it">Why do I need it?</h2>
+<p>Without a dedicated, resilient registry, container image storage and distribution becomes a single point of failure and a weak link in your software supply chain — especially across a multicluster, multisite deployment where images need to be available reliably everywhere, with no unscanned or untrusted content slipping through. Quay solves that by giving you a purpose-built, highly available registry with built-in vulnerability scanning and access control, whether you want to run it yourself or let Red Hat manage it for you.</p>
+<h2 id="where-do-i-get-it">Where do I get it?</h2>
+<p>Available as a standalone self-managed subscription, included with OpenShift Platform Plus, or as the managed Quay.io service. Not sold through the self-serve Red Hat Store. <strong>Contact Red Hat sales</strong>: <a href="https://www.redhat.com/en/contact">https://www.redhat.com/en/contact</a>.</p>
+<p><strong>Quay.io hosted pricing</strong> (<a href="https://quay.io/plans/">quay.io/plans</a>, also listed on <a href="https://aws.amazon.com/marketplace/pp/prodview-obcdisdfyp5oc">AWS Marketplace</a>): public repositories are always free with unlimited storage. Private repositories are billed monthly by capacity tier — <strong>Developer $15/mo</strong> (5 private repos), <strong>Micro $30/mo</strong> (10), <strong>Small $60/mo</strong> (20), <strong>Large $125/mo</strong> (50), scaling up to <strong>5XL $3,100/mo</strong> (2,000). Self-managed Quay (standalone subscription or bundled with Platform Plus) remains quote-based — contact sales.</p>
+<h2 id="sources">Sources</h2>
+<ul>
+<li><a href="https://www.redhat.com/en/technologies/cloud-computing/quay">https://www.redhat.com/en/technologies/cloud-computing/quay</a></li>
+<li><a href="https://www.redhat.com/en/resources/quay-datasheet">https://www.redhat.com/en/resources/quay-datasheet</a></li>
+</ul>
+</main>
+<footer class="site-footer">
+  <p>Internal Red Hat product research reference. Not an official Red Hat publication.</p>
+</footer>
+<script src="../assets/theme.js"></script>
+</body>
+</html>

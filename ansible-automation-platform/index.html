@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ansible Automation Platform — What / How / Why / Where · Red Hat Product Research</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;600;700&family=Red+Hat+Text:ital,wght@0,400..700;1,400..700&family=Red+Hat+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="site-header-top">
+    <a class="site-brand" href="../index.html">
+      <span class="site-title">Red Hat Product Research</span>
+    </a>
+    <div class="site-header-actions">
+      <button class="header-btn" id="theme-toggle" type="button">Toggle theme</button>
+    </div>
+  </div>
+  <nav class="section-nav" aria-label="Products">
+    <a class="section-tab" href="../index.html">Home</a>
+    <a class="section-tab" href="../rhel/index.html">RHEL</a>
+    <a class="section-tab active" href="../ansible-automation-platform/index.html">Ansible Automation Platform</a>
+    <a class="section-tab" href="../openshift/index.html">OpenShift</a>
+    <a class="section-tab" href="../red-hat-ai/index.html">Red Hat AI</a>
+    <a class="section-tab" href="../red-hat-lightwell/index.html">Red Hat Lightwell</a>
+  </nav>
+</header>
+<main class="content" id="main">
+<h1 id="ansible-automation-platform-what-how-why-where">Ansible Automation Platform — What / How / Why / Where</h1>
+<h2 id="what-is-it">What is it?</h2>
+<p><strong>Red Hat Ansible Automation Platform is an enterprise automation platform that lets IT teams create, manage, and scale automation — from routine configuration tasks to AI-assisted operations and incident response — under one consistent governance model.</strong></p>
+<p>Rather than automating one tool or team at a time, Ansible Automation Platform is meant to be the common execution layer across an organization's entire IT estate: infrastructure provisioning and virtual machine lifecycle management, network configuration across campus/branch/cloud/edge environments, and security operations like automated investigation and compliance enforcement. Red Hat describes it as the "trusted execution layer for mission-critical IT operations in the AI era," meaning it's increasingly built to pair deterministic automation (rules you define and trust) with AI-driven recommendations and AIOps, rather than purely replacing human judgment with AI.</p>
+<h2 id="how-does-it-work">How does it work?</h2>
+<p>Automation in the Ansible ecosystem is written as human-readable instructions (playbooks) describing the desired end state of a system — for example, "this server should have this package installed and this service running" — and then executed against your infrastructure to make reality match that description. Ansible Automation Platform adds an enterprise layer on top of this: a central controller for running and auditing automation at scale, an automation orchestrator for designing and managing larger multi-step IT operations workflows, and integration with AIOps so that AI-detected issues (like a false-positive alert or a service that needs restarting) can trigger governed, automated remediation instead of a manual ticket. All of this sits under one management plane and governance model, so automation written for one use case (say, network configuration) follows the same access, auditing, and approval rules as automation for another (say, security response).</p>
+<h2 id="why-do-i-need-it">Why do I need it?</h2>
+<p>Manually configuring servers, networks, and security responses one at a time doesn't scale — it's slow, inconsistent between environments, and prone to human error, and as AI-driven threats and infrastructure complexity grow, manual response times increasingly can't keep up. Ansible Automation Platform solves this by letting you write automation once (as a reusable playbook) and run it consistently and safely across your entire estate, with centralized governance so you can trust what's being automated and audit what happened. In practice, customers have used it to cut incident response time by automatically verifying and resolving false positives instead of pulling in an engineer, to reduce service tickets by pairing observability with self-healing automation, and to apply the same automation approach consistently across branch, campus, and data center networks instead of maintaining separate processes for each. It's most valuable once you have automation needs spanning more than one team or use case and need a consistent, auditable way to manage all of it.</p>
+<h2 id="where-do-i-get-it">Where do I get it?</h2>
+<p>Ansible Automation Platform is not sold through the self-serve Red Hat Store — it's an enterprise subscription product. To purchase or get pricing details for your environment, <strong>contact Red Hat sales</strong>: <a href="https://www.redhat.com/en/contact">https://www.redhat.com/en/contact</a>. It's also available through Red Hat's partner ecosystem and select cloud marketplaces.</p>
+<p><strong>AWS Marketplace pricing</strong> has two published paths: a fully managed <strong><a href="https://aws.amazon.com/marketplace/pp/prodview-mpuxxhsen5qre">Ansible Automation Platform Service on AWS</a></strong>, billed monthly by managed-node tier from <strong>$412.50/mo</strong> (50 nodes) up to <strong>$70,125/mo</strong> (10,000 nodes), plus <strong>$8.25/managed node/mo</strong> and <strong>$0.10/cluster-CPU/hour</strong> for overages; and a <strong><a href="https://aws.amazon.com/marketplace/pp/prodview-xy6tb27e6rkjm">self-managed subscription</a></strong> at <strong>$19,250 per 12 months</strong> per 100-node pack.</p>
+<h2 id="related-products">Related Products</h2>
+<ul>
+<li><a href="event-driven-ansible.html">Event-Driven Ansible</a> — included capability that turns monitoring/observability events into automated remediation actions</li>
+<li><a href="red-hat-lightspeed-for-automation.html">Red Hat Lightspeed for Automation</a> — proactive health, security, and performance monitoring for your Ansible Automation Platform infrastructure</li>
+<li><a href="red-hat-automation-coding-assistant.html">Red Hat Automation Coding Assistant</a> — generative AI service (formerly branded Ansible Lightspeed) that writes Ansible YAML/playbooks from natural-language prompts</li>
+</ul>
+<h2 id="learn-more">Learn more</h2>
+<p>Red Hat's <a href="https://www.redhat.com/en/topics">Topics</a> index groups its educational content by subject. Ansible Automation Platform maps to a single topic covering automation broadly.</p>
+<div class="learn-more-columns">
+<div class="learn-more-column">
+<p><strong>Topics related to Ansible Automation Platform:</strong></p>
+<ul>
+<li><a href="https://www.redhat.com/en/topics/automation">Automation</a></li>
+</ul>
+</div>
+<div class="learn-more-column">
+<p><strong>Top articles:</strong></p>
+<ul>
+<li><a href="https://www.redhat.com/en/topics/automation/what-is-an-ansible-rulebook">What is an Ansible Rulebook?</a></li>
+<li><a href="https://www.redhat.com/en/topics/automation/what-is-an-ansible-module">What is an Ansible module—and how does it work?</a></li>
+<li><a href="https://www.redhat.com/en/topics/automation/what-is-an-ansible-role">What is an Ansible Role—and how is it used?</a></li>
+<li><a href="https://www.redhat.com/en/topics/automation/understanding-ansible-vs-terraform-puppet-chef-and-salt">Understanding Ansible, Terraform, Puppet, Chef, and Salt</a></li>
+<li><a href="https://www.redhat.com/en/technologies/management/ansible/ansible-deployment-options">Which Ansible cloud deployment option is right for you?</a></li>
+<li><a href="https://www.redhat.com/en/topics/automation/what-is-event-driven-automation">What is event-driven automation?</a></li>
+<li><a href="https://www.redhat.com/en/topics/automation/what-is-infrastructure-as-code-iac">What is Infrastructure as Code (IaC)?</a></li>
+<li><a href="https://www.redhat.com/en/topics/automation/what-is-infrastructure-automation">What is infrastructure automation?</a></li>
+<li><a href="https://www.redhat.com/en/topics/automation/what-is-network-automation">What is network automation?</a></li>
+<li><a href="https://www.redhat.com/en/topics/automation/what-is-configuration-management">What is configuration management?</a></li>
+</ul>
+</div>
+</div>
+<h2 id="sources">Sources</h2>
+<ul>
+<li><a href="https://www.redhat.com/en/technologies/management/ansible">https://www.redhat.com/en/technologies/management/ansible</a></li>
+<li><a href="https://www.redhat.com/en/contact">https://www.redhat.com/en/contact</a></li>
+<li><a href="https://www.redhat.com/en/topics">https://www.redhat.com/en/topics</a></li>
+</ul>
+</main>
+<footer class="site-footer">
+  <p>Internal Red Hat product research reference. Not an official Red Hat publication.</p>
+</footer>
+<script src="../assets/theme.js"></script>
+</body>
+</html>

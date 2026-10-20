@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Red Hat OpenShift GitOps — What / How / Why / Where · Red Hat Product Research</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;600;700&family=Red+Hat+Text:ital,wght@0,400..700;1,400..700&family=Red+Hat+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="site-header-top">
+    <a class="site-brand" href="../index.html">
+      <span class="site-title">Red Hat Product Research</span>
+    </a>
+    <div class="site-header-actions">
+      <button class="header-btn" id="theme-toggle" type="button">Toggle theme</button>
+    </div>
+  </div>
+  <nav class="section-nav" aria-label="Products">
+    <a class="section-tab" href="../index.html">Home</a>
+    <a class="section-tab" href="../rhel/index.html">RHEL</a>
+    <a class="section-tab" href="../ansible-automation-platform/index.html">Ansible Automation Platform</a>
+    <a class="section-tab active" href="../openshift/index.html">OpenShift</a>
+    <a class="section-tab" href="../red-hat-ai/index.html">Red Hat AI</a>
+    <a class="section-tab" href="../red-hat-lightwell/index.html">Red Hat Lightwell</a>
+  </nav>
+</header>
+<main class="content" id="main">
+<h1 id="red-hat-openshift-gitops-what-how-why-where">Red Hat OpenShift GitOps — What / How / Why / Where</h1>
+<h2 id="what-is-it">What is it?</h2>
+<p><strong>Red Hat OpenShift GitOps is an OpenShift operator, built on the open source Argo CD project, that uses your Git repository as the single source of truth for how applications and clusters should be configured — and automatically keeps reality in sync with it.</strong></p>
+<p>It's the tool that makes "GitOps" workflows possible on OpenShift: instead of manually applying changes to a cluster, you commit the desired configuration to Git, and the operator handles making the cluster match.</p>
+<h2 id="how-does-it-work">How does it work?</h2>
+<p>OpenShift GitOps continuously compares the configuration declared in your Git repository against the live state of your cluster(s), and automatically reconciles any differences — deploying updates, catching drift, and (depending on configuration) rolling back changes that fall out of the desired state. It integrates Argo Rollouts to support advanced deployment strategies with automated testing to decide whether a promotion or rollback should happen. For large, multicluster fleets, <strong>Argo CD Agent</strong> (included with OpenShift Platform Plus) extends this to centralized, unified management at scale. Because it's a Red Hat-supported operator, it adds hardened security and enterprise support on top of what the upstream Argo CD project provides.</p>
+<h2 id="why-do-i-need-it">Why do I need it?</h2>
+<p>Manually applying configuration changes across many clusters is slow and error-prone, and it's easy to lose track of exactly what's deployed where or how it drifted from what was intended. GitOps solves that by making Git the authoritative record — every change is version-controlled, auditable, and reviewable before it ever reaches a cluster, and the operator keeps clusters consistent with that record automatically. This matters most once you're managing more than one cluster or need a clear audit trail of every infrastructure/application change.</p>
+<h2 id="where-do-i-get-it">Where do I get it?</h2>
+<p>Included as a feature of Red Hat OpenShift — install the operator from OperatorHub. If you don't yet have OpenShift, <strong>contact Red Hat sales</strong>: <a href="https://www.redhat.com/en/contact">https://www.redhat.com/en/contact</a>.</p>
+<h2 id="sources">Sources</h2>
+<ul>
+<li><a href="https://www.redhat.com/en/technologies/cloud-computing/openshift/gitops">https://www.redhat.com/en/technologies/cloud-computing/openshift/gitops</a></li>
+<li><a href="https://docs.redhat.com/en/documentation/openshift_container_platform/4.22/html-single/gitops/index">https://docs.redhat.com/en/documentation/openshift_container_platform/4.22/html-single/gitops/index</a></li>
+</ul>
+</main>
+<footer class="site-footer">
+  <p>Internal Red Hat product research reference. Not an official Red Hat publication.</p>
+</footer>
+<script src="../assets/theme.js"></script>
+</body>
+</html>
