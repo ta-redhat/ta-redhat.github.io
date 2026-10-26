@@ -22,6 +22,8 @@
   --color-surface: var(--rh-gray-10);
   --color-border: var(--rh-gray-20);
   --color-accent: var(--rh-red);
+  --color-sidebar-bg: rgba(238, 0, 0, 0.05);
+  --color-sidebar-border: rgba(238, 0, 0, 0.18);
 
   --max-content: 70ch;
   --space-xs: 0.25rem;
@@ -38,6 +40,8 @@
   --color-bg: var(--rh-gray-95);
   --color-surface: var(--rh-gray-90);
   --color-border: #3a3a3a;
+  --color-sidebar-bg: rgba(238, 0, 0, 0.1);
+  --color-sidebar-border: rgba(238, 0, 0, 0.3);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -47,6 +51,8 @@
     --color-bg: var(--rh-gray-95);
     --color-surface: var(--rh-gray-90);
     --color-border: #3a3a3a;
+    --color-sidebar-bg: rgba(238, 0, 0, 0.1);
+    --color-sidebar-border: rgba(238, 0, 0, 0.3);
   }
 }
 
@@ -177,10 +183,75 @@ body {
 }
 
 /* Content */
-.content {
-  max-width: 860px;
+.page-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-xl);
+  max-width: 1160px;
   margin: 0 auto;
   padding: var(--space-xl);
+}
+
+.page-main {
+  flex: 1 1 auto;
+  min-width: 0;
+  max-width: 860px;
+}
+
+.page-sidebar {
+  flex: 0 0 260px;
+  background: var(--color-sidebar-bg);
+  border: 1px solid var(--color-sidebar-border);
+  border-radius: 8px;
+  padding: var(--space-lg);
+  position: sticky;
+  top: calc(var(--space-xl) + 96px);
+}
+
+.page-sidebar h2 {
+  margin: 0 0 var(--space-md);
+  font-family: var(--font-display);
+  font-size: 1.0625rem;
+  font-weight: 600;
+  border-top: none;
+  padding-top: 0;
+}
+
+.page-sidebar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.page-sidebar li {
+  margin-bottom: var(--space-sm);
+}
+
+.page-sidebar li:last-child {
+  margin-bottom: 0;
+}
+
+.page-sidebar a {
+  font-size: 0.9375rem;
+  line-height: 1.4;
+}
+
+@media (max-width: 900px) {
+  .page-layout {
+    flex-direction: column;
+    padding: var(--space-lg) var(--space-md);
+  }
+
+  .page-main {
+    max-width: none;
+    width: 100%;
+  }
+
+  .page-sidebar {
+    flex: 1 1 auto;
+    width: 100%;
+    position: static;
+  }
 }
 
 .content h1 {
@@ -327,7 +398,6 @@ body {
 }
 
 @media (max-width: 640px) {
-  .content,
   .site-footer {
     padding-left: var(--space-md);
     padding-right: var(--space-md);
